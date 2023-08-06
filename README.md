@@ -1,4 +1,4 @@
-# Cone 
+# ConeDEX v2 WIP
 
 Forked from: https://github.com/sushiswap/sushiswap-interface
                                                                             
