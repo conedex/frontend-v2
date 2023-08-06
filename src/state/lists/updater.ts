@@ -1,6 +1,12 @@
 import { ChainId } from '@sushiswap/core-sdk'
 import { getVersionUpgrade, minVersionBump, VersionUpgrade } from '@uniswap/token-lists'
-import { ARBITRUM_LIST, OPTIMISM_LIST, UNSUPPORTED_LIST_URLS } from 'app/config/token-lists'
+import {
+  ARBITRUM_LIST,
+  MATIC_LIST,
+  MATIC_TESTNET_LIST,
+  OPTIMISM_LIST,
+  UNSUPPORTED_LIST_URLS,
+} from 'app/config/token-lists'
 import { useFetchListCallback } from 'app/hooks/useFetchListCallback'
 import useInterval from 'app/hooks/useInterval'
 import useIsWindowVisible from 'app/hooks/useIsWindowVisible'
@@ -34,6 +40,12 @@ export default function Updater(): null {
     }
     if (chainId && chainId === ChainId.OPTIMISM) {
       dispatch(enableList(OPTIMISM_LIST))
+    }
+    if (chainId && chainId === ChainId.MATIC) {
+      dispatch(enableList(MATIC_LIST))
+    }
+    if (chainId && chainId === ChainId.MATIC_TESTNET) {
+      dispatch(enableList(MATIC_TESTNET_LIST))
     }
   }, [chainId, dispatch])
   // fetch all lists every 10 minutes, but only after we initialize library

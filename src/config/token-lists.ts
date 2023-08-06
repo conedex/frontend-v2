@@ -9,6 +9,10 @@ const GEMINI_LIST = 'https://www.gemini.com/uniswap/manifest.json'
 const KLEROS_LIST = 't2crtokens.eth'
 export const ARBITRUM_LIST = 'https://bridge.arbitrum.io/token-list-42161.json'
 export const OPTIMISM_LIST = 'https://static.optimism.io/optimism.tokenlist.json'
+export const MATIC_LIST =
+  'https://raw.githubusercontent.com/conedex/community-token-list/main/build/conedex-community.tokenlist.json'
+export const MATIC_TESTNET_LIST =
+  'https://raw.githubusercontent.com/conedex/community-token-list/main/build/conedex-community.tokenlist.json'
 const SET_LIST = 'https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/set.tokenlist.json'
 const UMA_LIST = 'https://umaproject.org/uma.tokenlist.json'
 const WRAPPED_LIST = 'wrapped.tokensoft.eth'
@@ -16,19 +20,18 @@ const ROLL_LIST = 'https://app.tryroll.com/tokens.json'
 // const DHEDGE_LIST = 'https://list.dhedge.eth.link'
 const SUSHI_LIST = 'https://token-list.sushi.com'
 const CHAINLINK_LIST = 'https://token-list.sushi.com/chainlink'
+const CONEDEX_LIST =
+  'https://tokenlists.org/token-list?url=https://raw.githubusercontent.com/conedex/community-token-list/main/build/conedex-community.tokenlist.json'
 
-export const UNSUPPORTED_LIST_URLS: string[] = [BA_LIST]
-
-// this is the default list of lists that are exposed to users
-// lower index == higher priority for token import
-const DEFAULT_LIST_OF_LISTS_TO_DISPLAY: string[] = [
+export const UNSUPPORTED_LIST_URLS: string[] = [
+  BA_LIST,
   SUSHI_LIST,
   CHAINLINK_LIST,
   COMPOUND_LIST,
   AAVE_LIST,
-  // CMC_ALL_LIST,
+  CMC_ALL_LIST,
   COINGECKO_LIST,
-  // UMA_LIST,
+  UMA_LIST,
   SYNTHETIX_LIST,
   KLEROS_LIST,
   GEMINI_LIST,
@@ -36,8 +39,11 @@ const DEFAULT_LIST_OF_LISTS_TO_DISPLAY: string[] = [
   SET_LIST,
   ROLL_LIST,
   NFTX_LIST,
-  // DHEDGE_LIST,
 ]
+
+// this is the default list of lists that are exposed to users
+// lower index == higher priority for token import
+const DEFAULT_LIST_OF_LISTS_TO_DISPLAY: string[] = [CONEDEX_LIST]
 
 export const DEFAULT_LIST_OF_LISTS: string[] = [
   ...DEFAULT_LIST_OF_LISTS_TO_DISPLAY,
