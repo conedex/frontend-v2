@@ -31,10 +31,10 @@ module.exports = {
           'pink-red-light-brown': ['#FE5A75', '#FEC464'],
         },
         background: {
-          'dark-1000': '#0D0415',
-          'dark-900': '#161522BF',
-          'dark-800': '#202231',
-          'dark-pink-red': '#4e3034',
+          'dark-1000': '#FFDEA8',
+          'dark-900': '#FFD791',
+          'dark-800': '#FFC963',
+          'dark-pink-red': '#FFECD6',
         },
         border: {
           1: '1px',
@@ -155,16 +155,19 @@ module.exports = {
           800: '#B97301',
           900: '#815101',
         },
-        'dark-pink': '#221825',
-        'dark-blue': '#0F182A',
-        'dark-1000': '#0D0415',
-        'dark-900': '#161522',
-        'dark-850': '#1d1e2c',
-        'dark-800': '#202231',
-        'dark-700': '#2E3348',
-        'dark-600': '#414A6C',
-        'dark-500': '#223D5E',
-        'dark-400': '#545f7b',
+        'dark-pink': '#FFECD6', // Very light orange
+        'dark-blue': '#FFE5BF', // Light orange
+        'dark-1000': '#FFDEA8', // Slightly darker orange
+        'dark-900': '#FFD791', // More orange
+        'dark-850': '#FFD07A', // More orange
+        'dark-800': '#FFC963', // More orange
+        'dark-700': '#FFC24C', // More orange
+        'dark-600': '#FFBB35', // More orange
+        'dark-500': '#FFB41E', // More orange
+        'dark-400': '#FFAD07', // More orange
+        'orange-dark': '#FF8000',
+        'orange-primary': '#FFB366',
+        white: '#FFFFFF',
         'low-emphesis': '#575757',
         primary: '#BFBFBF',
         secondary: '#7F7F7F',

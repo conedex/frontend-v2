@@ -325,7 +325,7 @@ const AssetInputPanelBalance: FC<AssetInputPanelBalanceProps> = ({
     <div className={classNames(error ? 'bg-red/10' : '', 'flex justify-between py-2 px-3')}>
       <div className="flex items-center gap-1.5 mr-1">
         {showIcon ? icon : null}
-        <Typography variant="sm" className={classNames(balance ? 'text-high-emphesis' : 'text-low-emphesis')}>
+        <Typography variant="sm" className={classNames(balance ? 'text-low-emphesis' : 'text-high-emphesis')}>
           {i18n._(t`Balance:`)}
         </Typography>
       </div>

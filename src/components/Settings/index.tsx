@@ -53,7 +53,7 @@ const SettingsTab: FC<SettingsTabProps> = ({ placeholderSlippage, className, tri
               </Typography>
               <div className="flex items-center justify-between">
                 <div className="flex items-center">
-                  <Typography variant="xs" className="text-high-emphesis" weight={700}>
+                  <Typography variant="xs" className="text-low-emphesis" weight={700}>
                     {i18n._(t`Toggle expert mode`)}
                   </Typography>
                   <QuestionHelper
@@ -85,7 +85,7 @@ const SettingsTab: FC<SettingsTabProps> = ({ placeholderSlippage, className, tri
               {!trident && (
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
-                    <Typography variant="xs" className="text-high-emphesis" weight={700}>
+                    <Typography variant="xs" className="text-low-emphesis" weight={700}>
                       {i18n._(t`Disable multihops`)}
                     </Typography>
                     <QuestionHelper text={i18n._(t`Restricts swaps to direct pairs only.`)} />

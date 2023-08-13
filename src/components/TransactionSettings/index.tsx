@@ -66,7 +66,7 @@ const TransactionSettings: FC<TransactionSettingsProps> = ({ placeholderSlippage
     <div className="flex flex-col gap-4">
       <div className="grid gap-2">
         <div className="flex items-center">
-          <Typography variant="xs" weight={700} className="text-high-emphesis">
+          <Typography variant="xs" weight={700} className="text-low-emphesis">
             {i18n._(t`Slippage tolerance`)}
           </Typography>
 
@@ -148,7 +148,7 @@ const TransactionSettings: FC<TransactionSettingsProps> = ({ placeholderSlippage
       {!trident && (
         <div className="grid gap-2">
           <div className="flex items-center">
-            <Typography variant="xs" weight={700} className="text-high-emphesis">
+            <Typography variant="xs" weight={700} className="text-low-emphesis">
               {i18n._(t`Transaction deadline`)}
             </Typography>
 

@@ -1,6 +1,5 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import Button from 'app/components/Button'
 import Search from 'app/components/Search'
 import Typography from 'app/components/Typography'
 import { Chef, PairType } from 'app/features/onsen/enum'
@@ -80,13 +79,6 @@ export default function Farm(): JSX.Element {
           <Typography variant="sm" weight={400}>
             {i18n._(t`Earn fees and rewards by depositing and staking your tokens to the platform.`)}
           </Typography>
-        </div>
-        <div className="flex gap-3">
-          <Button id="btn-create-new-pool" size="sm">
-            <a href="https://rbieu62gj0f.typeform.com/to/KkrPkOFe" target="_blank" rel="noreferrer">
-              {i18n._(t`Apply for Onsen`)}
-            </a>
-          </Button>
         </div>
       </TridentHeader>
       <TridentBody>

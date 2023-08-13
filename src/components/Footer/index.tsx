@@ -147,11 +147,6 @@ const Footer = () => {
             <Typography variant="xs" weight={700} className="mt-2.5 hover:text-high-emphesis">
               {i18n._(t`Protocol`)}
             </Typography>
-            <a href="https://rbieu62gj0f.typeform.com/to/KkrPkOFe" target="_blank" rel="noreferrer">
-              <Typography variant="xs" className="text-low-emphesis hover:text-high-emphesis">
-                {i18n._(t`Apply for Onsen`)}
-              </Typography>
-            </a>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSecahmrXOJytn-wOUB8tEfONzOTP4zjKqz3sIzNzDDs9J8zcA/viewform"
               target="_blank"
