@@ -1,10 +1,10 @@
 {
-  "name": "sushiswap-interface",
+  "name": "conedex-interface",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "analyze": "ANALYZE=true yarn build && serve .next -n",
-    "build": "npm run lingui && next build",
+    "build": "yarn lingui && next build",
     "circular": "madge --circular src --extensions ts,tsx,js,jsx",
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "e2e": "concurrently -k -s first -n \"app,e2e\" \"yarn dev\" \"yarn e2e:safe\"",
