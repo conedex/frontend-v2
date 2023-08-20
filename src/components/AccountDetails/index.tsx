@@ -86,7 +86,12 @@ const AccountDetails: FC<AccountDetailsProps> = ({
                   // @ts-ignore TYPE NEEDS FIXING
                   address={account}
                   defaultComponent={
-                    <Image src="https://app.sushi.com/images/chef.svg" alt="Sushi Chef" width={48} height={48} />
+                    <Image
+                      src="https://bafybeialq2tneupnbkyrx5bt3ef2ja2ivdpx4frv2v4xn47u7vblwm45kq.ipfs.nftstorage.link/Bitcone.svg"
+                      alt="Sushi Chef"
+                      width={48}
+                      height={48}
+                    />
                   }
                   provider={library}
                 />

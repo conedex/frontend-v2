@@ -70,7 +70,7 @@ function Web3StatusInner() {
               address={account}
               defaultComponent={
                 <Image
-                  src="https://app.sushi.com/images/chef.svg"
+                  src="https://bafybeialq2tneupnbkyrx5bt3ef2ja2ivdpx4frv2v4xn47u7vblwm45kq.ipfs.nftstorage.link/Bitcone.svg"
                   alt="Sushi Chef"
                   width={24}
                   height={24}
