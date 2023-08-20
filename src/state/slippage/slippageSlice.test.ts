@@ -1,4 +1,4 @@
-import { Percent } from '@sushiswap/core-sdk'
+import { Percent } from '@conedex/core-sdkv2'
 import store, { AppState } from 'app/state'
 
 import {

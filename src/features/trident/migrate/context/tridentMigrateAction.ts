@@ -1,6 +1,6 @@
 import { Contract } from '@ethersproject/contracts'
-import { CurrencyAmount, Percent, Rebase, Token } from '@sushiswap/core-sdk'
-import { ConstantProductPool, Fee } from '@sushiswap/trident-sdk'
+import { CurrencyAmount, Percent, Rebase, Token } from '@conedex/core-sdkv2'
+import { ConstantProductPool, Fee } from '@conedex/trident-sdk'
 import { v2Migration } from 'app/features/trident/migrate/context/migrateSlice'
 import { calculateSlippageAmount, toShareCurrencyAmount } from 'app/functions'
 import store from 'app/state'

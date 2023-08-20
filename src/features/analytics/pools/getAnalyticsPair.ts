@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@conedex/core-sdkv2'
 import { getBlockDaysAgo, getNativePrice, getPairDayData, getPairs } from 'app/services/graph'
 
 export type AnalyticsPair = Awaited<ReturnType<typeof getAnalyticsPair>>

@@ -1,4 +1,4 @@
-import { PoolType } from '@sushiswap/trident-sdk'
+import { PoolType } from '@conedex/trident-sdk'
 import Chip from 'app/components/Chip'
 import { formatNumber, formatPercent } from 'app/functions/format'
 import { TridentPool } from 'app/services/graph/fetchers/pools'

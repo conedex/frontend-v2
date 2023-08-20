@@ -17,7 +17,7 @@ import {
   toHex,
   Trade as LegacyTrade,
   TradeType,
-} from '@sushiswap/core-sdk'
+} from '@conedex/core-sdkv2'
 import {
   ComplexPathParams,
   ExactInputParams,
@@ -30,7 +30,7 @@ import {
   PercentagePath,
   RouteType,
   Trade as TridentTrade,
-} from '@sushiswap/trident-sdk'
+} from '@conedex/trident-sdk'
 import { EIP_1559_ACTIVATION_BLOCK } from 'app/constants'
 import { Feature } from 'app/enums'
 import { approveMasterContractAction, batchAction, unwrapWETHAction } from 'app/features/trident/actions'

@@ -1,6 +1,6 @@
 import { getAddress } from '@ethersproject/address'
 import { AddressZero } from '@ethersproject/constants'
-import { WNATIVE_ADDRESS } from '@sushiswap/core-sdk'
+import { WNATIVE_ADDRESS } from '@conedex/core-sdkv2'
 import {
   Action,
   BatchAction,

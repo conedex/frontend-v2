@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@conedex/core-sdkv2'
 import { getBlockDaysAgo, getDayData, getFactory } from 'app/services/graph'
 
 export type AnalyticsDashboard = Awaited<ReturnType<typeof getAnalyticsDashboard>>

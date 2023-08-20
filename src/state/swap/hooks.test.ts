@@ -1,4 +1,4 @@
-import { ChainId, SUSHI_ADDRESS } from '@sushiswap/core-sdk'
+import { ChainId, SUSHI_ADDRESS } from '@conedex/core-sdkv2'
 import { parse } from 'qs'
 
 import { Field } from './actions'

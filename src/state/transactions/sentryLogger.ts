@@ -1,7 +1,7 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import * as Sentry from '@sentry/browser'
-import { Pair, Token } from '@sushiswap/core-sdk'
-import { ConstantProductPool, Fee } from '@sushiswap/trident-sdk'
+import { Pair, Token } from '@conedex/core-sdkv2'
+import { ConstantProductPool, Fee } from '@conedex/trident-sdk'
 import { PoolUnion } from 'app/features/trident/types'
 import { RoutingInfo } from 'app/hooks/useBestTridentTrade'
 

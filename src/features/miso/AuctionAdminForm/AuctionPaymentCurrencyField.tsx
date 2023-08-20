@@ -9,7 +9,7 @@ import {
   SUSHI_ADDRESS,
   USDC_ADDRESS,
   USDT_ADDRESS,
-} from '@sushiswap/core-sdk'
+} from '@conedex/core-sdkv2'
 import Form from 'app/components/Form'
 import FormFieldHelperText from 'app/components/Form/FormFieldHelperText'
 import ToggleButtonGroup from 'app/components/ToggleButton'

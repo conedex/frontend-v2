@@ -1,5 +1,5 @@
 import { ChevronRightIcon } from '@heroicons/react/outline'
-import { Currency, Trade, TradeType } from '@sushiswap/core-sdk'
+import { Currency, Trade, TradeType } from '@conedex/core-sdkv2'
 import { unwrappedToken } from 'app/functions/currency/wrappedCurrency'
 import React, { Fragment, memo } from 'react'
 

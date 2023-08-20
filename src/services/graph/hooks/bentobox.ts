@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, Token } from '@sushiswap/core-sdk'
+import { ChainId, CurrencyAmount, Token } from '@conedex/core-sdkv2'
 import { Feature } from 'app/enums'
 import { featureEnabled } from 'app/functions/feature'
 import {

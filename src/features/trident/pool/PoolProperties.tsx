@@ -1,6 +1,6 @@
 import { I18n } from '@lingui/core'
 import { t } from '@lingui/macro'
-import { Pool } from '@sushiswap/trident-sdk'
+import { Pool } from '@conedex/trident-sdk'
 import Chip from 'app/components/Chip'
 import Typography from 'app/components/Typography'
 import { formatPercent } from 'app/functions'

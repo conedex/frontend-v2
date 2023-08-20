@@ -1,6 +1,6 @@
 import { Interface } from '@ethersproject/abi'
 import { AddressZero } from '@ethersproject/constants'
-import { CHAIN_KEY, Currency, CurrencyAmount, Fraction, JSBI } from '@sushiswap/core-sdk'
+import { CHAIN_KEY, Currency, CurrencyAmount, Fraction, JSBI } from '@conedex/core-sdkv2'
 import MISO from '@sushiswap/miso/exports/all.json'
 import { CallState } from '@uniswap/redux-multicall'
 import BASE_AUCTION_ABI from 'app/constants/abis/base-auction.json'

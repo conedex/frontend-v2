@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { NATIVE, Percent, WNATIVE } from '@sushiswap/core-sdk'
+import { NATIVE, Percent, WNATIVE } from '@conedex/core-sdkv2'
 import AssetInput from 'app/components/AssetInput'
 import AssetSelect from 'app/components/AssetSelect'
 import Button from 'app/components/Button'

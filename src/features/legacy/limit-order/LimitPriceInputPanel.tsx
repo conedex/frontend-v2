@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency, Price, Trade, TradeType } from '@sushiswap/core-sdk'
+import { Currency, Price, Trade, TradeType } from '@conedex/core-sdkv2'
 import Input from 'app/components/Input'
 import Typography from 'app/components/Typography'
 import { useAppDispatch } from 'app/state/hooks'

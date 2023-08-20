@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency } from '@sushiswap/core-sdk'
+import { Currency } from '@conedex/core-sdkv2'
 import NavLink from 'app/components/NavLink'
 import Settings from 'app/components/Settings'
 import Typography from 'app/components/Typography'

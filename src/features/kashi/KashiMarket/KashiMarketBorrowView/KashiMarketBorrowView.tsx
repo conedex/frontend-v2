@@ -2,7 +2,7 @@ import { Transition } from '@headlessui/react'
 import { ArrowDownIcon } from '@heroicons/react/solid'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CurrencyAmount, Fraction, JSBI, maximum, minimum, ZERO } from '@sushiswap/core-sdk'
+import { CurrencyAmount, Fraction, JSBI, maximum, minimum, ZERO } from '@conedex/core-sdkv2'
 import {
   KashiMarketBorrowButton,
   KashiMarketBorrowLeverageView,

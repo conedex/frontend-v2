@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { NATIVE } from '@sushiswap/core-sdk'
+import { NATIVE } from '@conedex/core-sdkv2'
 import CloseIcon from 'app/components/CloseIcon'
 import Typography from 'app/components/Typography'
 import { useStore } from 'app/features/miso/context/store'

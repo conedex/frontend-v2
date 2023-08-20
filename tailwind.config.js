@@ -170,8 +170,8 @@ module.exports = {
         white: '#FFFFFF',
         'low-emphesis': '#575757',
         primary: '#BFBFBF',
-        secondary: '#7F7F7F',
-        'high-emphesis': '#E3E3E3',
+        secondary: '#FFFFFF',
+        'high-emphesis': '#FFFFFF',
         'higher-emphesis': '#FCFCFD',
       },
       lineHeight: {

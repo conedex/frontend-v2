@@ -1,4 +1,4 @@
-import { Pair } from '@sushiswap/core-sdk'
+import { Pair } from '@conedex/core-sdkv2'
 import Button from 'app/components/Button'
 import Checkbox from 'app/components/Checkbox'
 import { PoolPanelAssetsLabel } from 'app/components/Migrate/PoolPanelAssetsLabel'

@@ -1,5 +1,5 @@
 import { ChevronRightIcon } from '@heroicons/react/outline'
-import { OrderStatus } from '@sushiswap/limit-order-sdk'
+import { OrderStatus } from '@conedex/limit-order-sdk'
 import Chip from 'app/components/Chip'
 import { CurrencyLogo } from 'app/components/CurrencyLogo'
 import Typography from 'app/components/Typography'

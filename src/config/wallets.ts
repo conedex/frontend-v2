@@ -1,5 +1,5 @@
 // import { SafeAppConnector } from '@gnosis.pm/safe-apps-web3-react'
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@conedex/core-sdkv2'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 // import { PortisConnector } from 'web3-react-portis-connector'
 // import { WalletConnectConnector } from 'web3-react-walletconnect-connector'

@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CurrencyAmount, Percent } from '@sushiswap/core-sdk'
+import { CurrencyAmount, Percent } from '@conedex/core-sdkv2'
 import GradientDot from 'app/components/GradientDot'
 import QuestionHelper from 'app/components/QuestionHelper'
 import Typography from 'app/components/Typography'

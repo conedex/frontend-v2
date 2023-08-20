@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI, Rebase, Token, ZERO } from '@sushiswap/core-sdk'
+import { CurrencyAmount, JSBI, Rebase, Token, ZERO } from '@conedex/core-sdkv2'
 import { isAddress, toAmountCurrencyAmount } from 'app/functions'
 import { useAllTokens } from 'app/hooks/Tokens'
 import { useBentoBoxContract } from 'app/hooks/useContract'

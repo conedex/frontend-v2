@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, JSBI, Percent, Trade, TradeType } from '@sushiswap/core-sdk'
+import { ChainId, Currency, CurrencyAmount, JSBI, Percent, Trade, TradeType } from '@conedex/core-sdkv2'
 import { TradeUnion } from 'app/types'
 
 import {

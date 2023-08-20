@@ -1,5 +1,5 @@
-import { Currency, Percent, Trade, TradeType } from '@sushiswap/core-sdk'
-import { Trade as TridentTrade } from '@sushiswap/trident-sdk'
+import { Currency, Percent, Trade, TradeType } from '@conedex/core-sdkv2'
+import { Trade as TridentTrade } from '@conedex/trident-sdk'
 import { useAppSelector } from 'app/state/hooks'
 import { selectSlippageWithDefault } from 'app/state/slippage/slippageSlice'
 import { useMemo } from 'react'

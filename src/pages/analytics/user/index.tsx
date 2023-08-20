@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@conedex/core-sdkv2'
 import Typography from 'app/components/Typography'
 import InfoCard from 'app/features/analytics/bar/InfoCard'
 import SushiInOut from 'app/features/analytics/bar/SushiInOut'

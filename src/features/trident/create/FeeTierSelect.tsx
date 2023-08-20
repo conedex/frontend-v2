@@ -1,4 +1,4 @@
-import { Fee } from '@sushiswap/trident-sdk'
+import { Fee } from '@conedex/trident-sdk'
 import Typography from 'app/components/Typography'
 import { classNames } from 'app/functions/styling'
 import React, { FC } from 'react'

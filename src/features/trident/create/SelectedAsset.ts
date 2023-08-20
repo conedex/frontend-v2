@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@sushiswap/core-sdk'
+import { Currency, CurrencyAmount } from '@conedex/core-sdkv2'
 import { tryParseAmount } from 'app/functions'
 import { v4 } from 'uuid'
 

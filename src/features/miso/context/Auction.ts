@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, JSBI, Percent, Price, Token, ZERO } from '@sushiswap/core-sdk'
+import { Currency, CurrencyAmount, Fraction, JSBI, Percent, Price, Token, ZERO } from '@conedex/core-sdkv2'
 import { ZERO_PERCENT } from 'app/constants'
 import {
   AuctionDocument,

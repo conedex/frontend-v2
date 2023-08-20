@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CurrencyAmount, Token, WNATIVE } from '@sushiswap/core-sdk'
+import { CurrencyAmount, Token, WNATIVE } from '@conedex/core-sdkv2'
 import {
   approveMasterContractAction,
   approveSLPAction,

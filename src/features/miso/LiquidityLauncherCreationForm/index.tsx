@@ -1,7 +1,7 @@
 import { yupResolver } from '@hookform/resolvers/yup'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CurrencyAmount, Token } from '@sushiswap/core-sdk'
+import { CurrencyAmount, Token } from '@conedex/core-sdkv2'
 import Button from 'app/components/Button'
 import Form from 'app/components/Form'
 import useAuction from 'app/features/miso/context/hooks/useAuction'

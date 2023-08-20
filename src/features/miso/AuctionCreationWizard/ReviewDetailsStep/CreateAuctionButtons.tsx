@@ -1,7 +1,7 @@
 import { AddressZero } from '@ethersproject/constants'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CHAIN_KEY, NATIVE, Percent } from '@sushiswap/core-sdk'
+import { CHAIN_KEY, NATIVE, Percent } from '@conedex/core-sdkv2'
 import MISO from '@sushiswap/miso/exports/all.json'
 import LoadingCircle from 'app/animation/loading-circle.json'
 import Button from 'app/components/Button'

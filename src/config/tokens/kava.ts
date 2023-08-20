@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@sushiswap/core-sdk'
+import { ChainId, Token } from '@conedex/core-sdkv2'
 
 export const DAI = new Token(ChainId.KAVA, '0x765277EebeCA2e31912C9946eAe1021199B39C61', 18, 'DAI', 'Dai Stablecoin')
 export const USDC = new Token(ChainId.KAVA, '0xfA9343C3897324496A05fC75abeD6bAC29f8A40f', 6, 'USDC', 'USD Coin')

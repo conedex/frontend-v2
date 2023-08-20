@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token } from '@sushiswap/core-sdk'
+import { CurrencyAmount, Token } from '@conedex/core-sdkv2'
 import { useInariContract } from 'app/hooks/useContract'
 import { useERC20Permit } from 'app/hooks/useERC20Permit'
 import { useActiveWeb3React } from 'app/services/web3'

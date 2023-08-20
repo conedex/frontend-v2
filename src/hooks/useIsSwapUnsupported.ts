@@ -1,4 +1,4 @@
-import { Currency, Token } from '@sushiswap/core-sdk'
+import { Currency, Token } from '@conedex/core-sdkv2'
 import { useMemo } from 'react'
 
 import { useUnsupportedTokens } from './Tokens'

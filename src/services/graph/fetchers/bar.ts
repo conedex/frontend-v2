@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@conedex/core-sdkv2'
 import { GRAPH_HOST } from 'app/services/graph/constants'
 import {
   barHistoriesQuery,

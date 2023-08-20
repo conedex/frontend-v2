@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { NATIVE, ZERO } from '@sushiswap/core-sdk'
+import { NATIVE, ZERO } from '@conedex/core-sdkv2'
 import Typography from 'app/components/Typography'
 import AssetBalances from 'app/features/portfolio/AssetBalances/AssetBalances'
 import { Assets } from 'app/features/portfolio/AssetBalances/types'
@@ -105,7 +105,7 @@ export const WalletBalances = ({ account, chainId }: Balances) => {
 
   return (
     <div className="flex flex-col gap-3">
-      <Typography weight={700} variant="lg" className="px-2 text-high-emphesis">
+      <Typography weight={700} variant="lg" className="px-2 text-orange-dark">
         {i18n._(t`Wallet Balances`)}
       </Typography>
       <AssetBalances config={config} onSelect={handleRowClick} />

@@ -1,7 +1,7 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
 import { RampInstantSDK } from '@ramp-network/ramp-instant-sdk'
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@conedex/core-sdkv2'
 import { useActiveWeb3React } from 'app/services/web3'
 import { useCallback } from 'react'
 

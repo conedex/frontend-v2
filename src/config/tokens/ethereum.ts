@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@sushiswap/core-sdk'
+import { ChainId, Token } from '@conedex/core-sdkv2'
 
 // Default Ethereum chain tokens
 export const ALPHA = new Token(

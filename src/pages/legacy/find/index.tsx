@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency, CurrencyAmount, JSBI, NATIVE, Token } from '@sushiswap/core-sdk'
+import { Currency, CurrencyAmount, JSBI, NATIVE, Token } from '@conedex/core-sdkv2'
 import Alert from 'app/components/Alert'
 import Back from 'app/components/Back'
 import Button from 'app/components/Button'

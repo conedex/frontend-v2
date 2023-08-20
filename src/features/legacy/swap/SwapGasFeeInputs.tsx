@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CurrencyAmount, NATIVE } from '@sushiswap/core-sdk'
+import { CurrencyAmount, NATIVE } from '@conedex/core-sdkv2'
 import NumericalInput from 'app/components/Input/Numeric'
 import Typography from 'app/components/Typography'
 import useFeeData from 'app/hooks/useFeeData'

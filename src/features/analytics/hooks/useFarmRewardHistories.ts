@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@conedex/core-sdkv2'
 import { PairType } from 'app/features/onsen/enum'
 import { aprToApy } from 'app/functions/convert'
 import { useFarmHistories } from 'app/services/graph'

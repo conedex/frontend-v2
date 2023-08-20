@@ -1,5 +1,5 @@
-import { JSBI, ZERO } from '@sushiswap/core-sdk'
-import { PROTOCOL_FEE, PROTOCOL_FEE_DIVISOR } from '@sushiswap/kashi-sdk'
+import { JSBI, ZERO } from '@conedex/core-sdkv2'
+import { PROTOCOL_FEE, PROTOCOL_FEE_DIVISOR } from '@conedex/kashi-sdk'
 
 import { KashiMediumRiskLendingPair } from './KashiMediumRiskLendingPair'
 

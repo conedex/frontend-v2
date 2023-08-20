@@ -30,7 +30,7 @@ const FILLED = {
   pink: 'bg-pink',
   purple: 'bg-purple',
   gradient:
-    '!bg-gradient-to-r from-dark-850 to-dark-600 hover:from-dark-800 hover:to-dark-500 focus:from-dark-800 focus:to-dark-500 active:from-dark-700 active:to-dark-400 focus:border-dark-600',
+    '!bg-gradient-to-r from-white to-blue hover:from-white hover:to-blue/80 focus:from-white focus:to-blue/80 active:from-white active:to-blue/70 focus:border-blue-700',
   gray: 'bg-dark-700',
 }
 
@@ -81,7 +81,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     {
       children,
       className = '',
-      color = 'blue',
+      color = 'orange',
       size = 'md',
       variant = 'filled',
       startIcon = undefined,

@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@sushiswap/core-sdk'
+import { ChainId, Token } from '@conedex/core-sdkv2'
 import { uriToHttp } from 'app/functions/convert'
 import Vibrant from 'node-vibrant'
 import { shade } from 'polished'

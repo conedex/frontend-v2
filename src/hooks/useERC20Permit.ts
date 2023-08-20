@@ -9,7 +9,7 @@ import {
   Token,
   Trade as V2Trade,
   TradeType,
-} from '@sushiswap/core-sdk'
+} from '@conedex/core-sdkv2'
 import { DAI, USDC } from 'app/config/tokens/ethereum'
 import { useSingleCallResult } from 'app/lib/hooks/multicall'
 import { useActiveWeb3React } from 'app/services/web3'

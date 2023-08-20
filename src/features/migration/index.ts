@@ -1,3 +1,3 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@conedex/core-sdkv2'
 
 export const MigrationSupported = [ChainId.ETHEREUM, ChainId.BSC, ChainId.MATIC]

@@ -1,7 +1,7 @@
 import { ExclamationIcon } from '@heroicons/react/outline'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Percent } from '@sushiswap/core-sdk'
+import { Percent } from '@conedex/core-sdkv2'
 import { DEFAULT_DEADLINE_FROM_NOW } from 'app/constants'
 import { classNames } from 'app/functions'
 import { useAppDispatch, useAppSelector } from 'app/state/hooks'

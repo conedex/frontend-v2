@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, JSBI, Token } from '@sushiswap/core-sdk'
+import { ChainId, CurrencyAmount, JSBI, Token } from '@conedex/core-sdkv2'
 import { aprToApy, toAmountCurrencyAmount } from 'app/functions'
 import { GRAPH_HOST } from 'app/services/graph/constants'
 import {

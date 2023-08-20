@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency, CurrencyAmount, TradeType, ZERO } from '@sushiswap/core-sdk'
+import { Currency, CurrencyAmount, TradeType, ZERO } from '@conedex/core-sdkv2'
 import Button from 'app/components/Button'
 import { CurrencyLogo } from 'app/components/CurrencyLogo'
 import HeadlessUiModal from 'app/components/Modal/HeadlessUIModal'

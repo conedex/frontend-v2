@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { AddressZero } from '@ethersproject/constants'
-import { ChainId, CurrencyAmount, Percent, Token } from '@sushiswap/core-sdk'
+import { ChainId, CurrencyAmount, Percent, Token } from '@conedex/core-sdkv2'
 import { calculateGasMargin, calculateSlippageAmount } from 'app/functions/trade'
 
 describe('#calculateSlippageAmount', () => {

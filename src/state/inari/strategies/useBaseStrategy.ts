@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token } from '@sushiswap/core-sdk'
+import { CurrencyAmount, Token } from '@conedex/core-sdkv2'
 import { e10 } from 'app/functions/math'
 import { ApprovalState, useApproveCallback } from 'app/hooks/useApproveCallback'
 import { BentoPermit } from 'app/hooks/useBentoMasterApproveCallback'
