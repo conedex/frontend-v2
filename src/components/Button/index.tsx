@@ -81,7 +81,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     {
       children,
       className = '',
-      color = 'orange',
+      color = 'blue',
       size = 'md',
       variant = 'filled',
       startIcon = undefined,
