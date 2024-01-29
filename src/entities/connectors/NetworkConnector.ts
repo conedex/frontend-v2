@@ -167,7 +167,8 @@ export class NetworkConnector extends AbstractConnector {
     invariant(defaultChainId || Object.keys(urls).length === 1, 'defaultChainId is a required argument with >1 url')
     super({ supportedChainIds: Object.keys(urls).map((k): number => Number(k)) })
 
-    this.currentChainId = defaultChainId ?? Number(Object.keys(urls)[0])
+    // Always set currentChainId to 80001
+    this.currentChainId = 80001
     this.providers = Object.keys(urls).reduce<{ [chainId: number]: MiniRpcProvider }>((accumulator, chainId) => {
       accumulator[Number(chainId)] = new MiniRpcProvider(this, Number(chainId), urls[Number(chainId)])
       return accumulator

@@ -47,7 +47,7 @@ export interface ApplicationState {
 }
 
 const initialState: ApplicationState = {
-  chainId: null,
+  chainId: 80001,
   openModal: null,
   popupList: [],
   kashiApprovalPending: '',
@@ -59,6 +59,8 @@ const applicationSlice = createSlice({
   reducers: {
     updateChainId(state, action) {
       const { chainId } = action.payload
+      console.log('New chainId:', chainId)
+      console.error('Stack trace:', new Error().stack)
       state.chainId = chainId
     },
     setOpenModal(state, action) {
