@@ -31,6 +31,7 @@ export const CHAINLINK_PRICE_FEED_MAP: {
   [ChainId.BSC]: BSC,
   [ChainId.HECO]: HECO,
   [ChainId.MATIC]: MATIC,
+  [ChainId.MATIC_TESTNET]: MATIC,
   [ChainId.XDAI]: XDAI,
   [ChainId.ARBITRUM]: ARBITRUM,
   [ChainId.AVALANCHE]: AVALANCHE,

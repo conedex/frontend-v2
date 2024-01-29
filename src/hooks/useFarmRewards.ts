@@ -203,6 +203,7 @@ export default function useFarmRewards({ chainId = ChainId.ETHEREUM }) {
         } else if (
           pool.chef === Chef.MINICHEF &&
           chainId !== ChainId.MATIC &&
+          chainId !== ChainId.MATIC_TESTNET &&
           chainId !== ChainId.ARBITRUM &&
           chainId !== ChainId.XDAI
         ) {
@@ -219,6 +220,12 @@ export default function useFarmRewards({ chainId = ChainId.ETHEREUM }) {
           const reward = {
             [ChainId.MATIC]: {
               currency: NATIVE[ChainId.MATIC],
+              rewardPerBlock,
+              rewardPerDay: rewardPerSecond * 86400,
+              rewardPrice: maticPrice,
+            },
+            [ChainId.MATIC_TESTNET]: {
+              currency: NATIVE[ChainId.MATIC_TESTNET],
               rewardPerBlock,
               rewardPerDay: rewardPerSecond * 86400,
               rewardPrice: maticPrice,
@@ -295,7 +302,12 @@ export default function useFarmRewards({ chainId = ChainId.ETHEREUM }) {
               rewards[1] = reward[chainId]
             }
           }
-        } else if (chainId === ChainId.MATIC || chainId === ChainId.ARBITRUM || chainId === ChainId.XDAI) {
+        } else if (
+          chainId === ChainId.MATIC ||
+          chainId === ChainId.MATIC_TESTNET ||
+          chainId === ChainId.ARBITRUM ||
+          chainId === ChainId.XDAI
+        ) {
           if (pool.rewarder.rewardPerSecond !== '0') {
             const rewardPerSecond =
               pool.rewarder.totalAllocPoint === '0'

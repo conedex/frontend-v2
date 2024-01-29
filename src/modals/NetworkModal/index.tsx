@@ -321,11 +321,11 @@ const NetworkModal: FC<{ switchNetwork: (targetChain: number) => void }> = ({ sw
         <HeadlessUiModal.Header header={i18n._(t`Select a network`)} onClose={toggleNetworkModal} />
         <div className="grid grid-flow-row-dense grid-cols-1 gap-4 overflow-y-auto md:grid-cols-2">
           {[
-            ChainId.ETHEREUM,
+            // ChainId.ETHEREUM,
             ChainId.MATIC_TESTNET,
             // ChainId.ARBITRUM,
             // ChainId.ARBITRUM_NOVA,
-            // ChainId.MATIC,
+            ChainId.MATIC,
             // ChainId.XDAI,
             // ChainId.FANTOM,
             // ChainId.MOONRIVER,

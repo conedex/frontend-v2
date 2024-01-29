@@ -10,12 +10,14 @@ const DEFAULT_NETWORK = {
   [ChainId.ETHEREUM]: 'ethereum',
   [ChainId.BSC]: 'bsc',
   [ChainId.MATIC]: 'matic',
+  [ChainId.MATIC_TESTNET]: 'matic',
 }
 
 const DEFAULT_CRYPTO_CURRENCY = {
   [ChainId.ETHEREUM]: 'ETH',
   [ChainId.BSC]: 'BNB',
   [ChainId.MATIC]: 'MATIC',
+  [ChainId.MATIC_TESTNET]: 'matic',
 }
 
 export default function Buy() {

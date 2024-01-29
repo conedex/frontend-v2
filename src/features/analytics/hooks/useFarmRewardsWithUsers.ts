@@ -162,6 +162,12 @@ export function getRewards({
         rewardPerDay: rewardPerSecond * 86400,
         rewardPrice: maticPrice,
       },
+      [ChainId.MATIC_TESTNET]: {
+        currency: NATIVE[ChainId.MATIC_TESTNET],
+        rewardPerBlock,
+        rewardPerDay: rewardPerSecond * 86400,
+        rewardPrice: maticPrice,
+      },
       [ChainId.XDAI]: {
         currency: XDAI_TOKENS.GNO,
         rewardPerBlock,

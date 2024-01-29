@@ -15,6 +15,7 @@ const BLOCKCHAIN = {
   [ChainId.HARMONY]: 'harmony',
   [ChainId.HECO]: 'heco',
   [ChainId.MATIC]: 'matic',
+  [ChainId.MATIC_TESTNET]: 'matic',
   [ChainId.MOONRIVER]: 'moonriver',
   [ChainId.OKEX]: 'okex',
   [ChainId.PALM]: 'palm',

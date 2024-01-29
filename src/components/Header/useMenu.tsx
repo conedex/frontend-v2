@@ -60,11 +60,11 @@ const useMenu: UseMenu = () => {
         title: i18n._(t`Add`),
         link: `/add/ETH/${SUSHI_ADDRESS[chainId]}`,
       },
-      // {
-      //   key: 'remove-liquidity',
-      //   title: i18n._(t`Remove`),
-      //   link: '/remove',
-      // },
+      {
+        key: 'remove-liquidity',
+        title: i18n._(t`Remove`),
+        link: '/remove',
+      },
       {
         key: 'migrate',
         title: i18n._(t`Migrate`),
