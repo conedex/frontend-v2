@@ -2,7 +2,7 @@ import { Token } from '@conedex/core-sdkv2'
 import HeadlessUiModal from 'app/components/Modal/HeadlessUIModal'
 import React, { FC } from 'react'
 
-import { ImportToken } from '../SearchModal/ImportToken'
+// import { ImportToken } from '../SearchModal/ImportToken'
 
 interface TokenWarningModal {
   isOpen: boolean
@@ -11,11 +11,7 @@ interface TokenWarningModal {
 }
 
 const TokenWarningModal: FC<TokenWarningModal> = ({ isOpen, tokens, onConfirm }) => {
-  return (
-    <HeadlessUiModal.Controlled isOpen={isOpen} onDismiss={onConfirm}>
-      <ImportToken tokens={tokens} />
-    </HeadlessUiModal.Controlled>
-  )
+  return <HeadlessUiModal.Controlled isOpen={isOpen} onDismiss={onConfirm}></HeadlessUiModal.Controlled>
 }
 
 export default TokenWarningModal

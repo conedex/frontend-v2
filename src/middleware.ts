@@ -27,7 +27,7 @@ const SUBDOMAIN_CHAIN_ID: { [subdomain: string]: string } = {
   [ChainSubdomain.BOBA_AVAX]: '43288',
 }
 
-const DEFAULT_CHAIN_ID = '1'
+const DEFAULT_CHAIN_ID = '80001'
 
 export function middleware(req: NextRequest) {
   // const response = NextResponse.next()

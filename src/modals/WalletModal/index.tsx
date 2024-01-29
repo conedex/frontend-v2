@@ -49,7 +49,7 @@ const WalletModal: FC<WalletModal> = ({ pendingTransactions, confirmedTransactio
   const router = useRouter()
   const queryChainId = Number(router.query.chainId)
   const cookieChainId = Cookies.get('chain-id')
-  const defaultChainId = cookieChainId ? Number(cookieChainId) : 1
+  const defaultChainId = cookieChainId ? Number(cookieChainId) : 80001
   // close on connection, when logged out before
   useEffect(() => {
     if (account && !previousAccount && walletModalOpen) toggleWalletModal()
@@ -135,7 +135,7 @@ const WalletModal: FC<WalletModal> = ({ pendingTransactions, confirmedTransactio
                 console.debug('Provider is wallet connect, attempt network switch')
                 switchToNetwork({
                   provider,
-                  chainId: defaultChainId !== 1 || !queryChainId ? defaultChainId : queryChainId,
+                  chainId: defaultChainId !== 80001 || !queryChainId ? defaultChainId : queryChainId,
                 })
               }
             }

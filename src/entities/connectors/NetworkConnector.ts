@@ -38,7 +38,7 @@ class MiniRpcProvider implements AsyncSendable {
 
   private readonly connector: NetworkConnector
 
-  private nextId = 1
+  private nextId = 80001
   private batchTimeoutId: ReturnType<typeof setTimeout> | null = null
   private batch: BatchItem[] = []
 

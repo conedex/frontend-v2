@@ -60,10 +60,10 @@ const Component: FC<NetworkGuardProps> = ({ children, feature, asModal = true })
                 // @ts-ignore TYPE NEEDS FIXING
                 const params = SUPPORTED_NETWORKS[key]
                 cookie.set('chainId', key)
-                if (key === ChainId.ETHEREUM.toString()) {
-                  library?.send('wallet_switchEthereumChain', [{ chainId: '0x1' }, account])
-                } else if (key === ChainId.KOVAN.toString()) {
-                  library?.send('wallet_switchEthereumChain', [{ chainId: '0x2A' }, account])
+                if (key === ChainId.MATIC_TESTNET.toString()) {
+                  library?.send('wallet_switchEthereumChain', [{ chainId: '0x13881' }, account])
+                } else if (key === ChainId.MATIC.toString()) {
+                  library?.send('wallet_switchEthereumChain', [{ chainId: '0x89' }, account])
                 } else {
                   library?.send('wallet_addEthereumChain', [params, account])
                 }
