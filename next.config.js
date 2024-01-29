@@ -176,7 +176,7 @@ const nextConfig = {
   publicRuntimeConfig: {
     breakpoints: screens,
 
-    [ChainId.ETHEREUM]: {
+    [ChainId.MATIC_TESTNET]: {
       features: [],
     },
   },

@@ -2,7 +2,7 @@ import { ChainId } from '@conedex/core-sdkv2'
 
 const config = {
   // Global configuration
-  defaultChainId: ChainId.ETHEREUM,
+  defaultChainId: ChainId.MATIC_TESTNET,
   blockedAddresses: [
     // SDN OFAC addresses - 08.11.2022
     '0x098B716B8Aaf21512996dC57EB0615e2383E2f96',
