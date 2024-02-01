@@ -47,7 +47,7 @@ export const ConfirmationPendingContent: FC<ConfirmationPendingContentProps> = (
         <div className="w-16 py-8 m-auto">
           <Lottie animationData={loadingRollingCircle} autoplay loop />
         </div>
-        <Typography variant="lg" weight={700} className="text-white">
+        <Typography variant="lg" weight={700} className="text-black">
           {pendingText}
         </Typography>
         <Typography variant="sm">{i18n._(t`Confirm this transaction in your wallet`)}</Typography>
@@ -93,7 +93,7 @@ export const TransactionSubmittedContent: FC<TransactionSubmittedContentProps> =
         <div className="w-[102px] h-[102px] bg-dark-900 rounded-full">
           <Lottie animationData={receiptPrinting} autoplay loop={false} />
         </div>
-        <Typography id="text-transaction-submitted" variant="sm" weight={700} className="text-white">
+        <Typography id="text-transaction-submitted" variant="sm" weight={700} className="text-black">
           {i18n._(t`Transaction Submitted`)}
         </Typography>
         {chainId && hash && (
@@ -153,7 +153,7 @@ export const TransactionErrorContent: FC<TransactionErrorContentProps> = ({ mess
         <Typography variant="lg" weight={700} className="text-pink-red" component="span">
           {i18n._(t`Oops!`)}
         </Typography>
-        <Typography variant="sm" weight={700} className="text-primary" component="span">
+        <Typography variant="sm" weight={700} className="text-black" component="span">
           {message}
         </Typography>
       </HeadlessUiModal.BorderedContent>

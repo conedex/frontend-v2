@@ -66,7 +66,7 @@ export const KashiMarketBorrowLeverageView: FC<KashiMarketBorrowLeverageView> = 
           <QuestionHelper
             text={
               <div className="flex flex-col gap-2">
-                <Typography variant="xs" className="text-white">
+                <Typography variant="xs" className="text-black">
                   {i18n._(
                     t`Leverage your position by swapping the received borrowed ${market.asset.token.symbol} for ${market.collateral.token.symbol} and use that as extra collateral to borrow more ${market.asset.token.symbol}.`
                   )}

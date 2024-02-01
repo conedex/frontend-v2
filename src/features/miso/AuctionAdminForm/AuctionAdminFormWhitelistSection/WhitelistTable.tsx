@@ -56,11 +56,11 @@ const WhitelistTable: FC<WhitelistTableProps> = ({ entries }) => {
           ))}
         </div>
         <div className="py-2 grid grid-cols-3 items-center">
-          <Typography variant="sm" weight={700} className="text-white">
+          <Typography variant="sm" weight={700} className="text-black">
             {entries.length}
           </Typography>
           <Typography variant="sm" weight={700} className="text-secondary" />
-          <Typography variant="sm" weight={700} className="text-right text-white">
+          <Typography variant="sm" weight={700} className="text-right text-black">
             + {entries.reduce((acc, cur) => acc + Number(cur.amount), 0)} {paymentToken?.symbol}
           </Typography>
         </div>

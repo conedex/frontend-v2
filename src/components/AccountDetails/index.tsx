@@ -96,7 +96,7 @@ const AccountDetails: FC<AccountDetailsProps> = ({
                   provider={library}
                 />
               </div>
-              <Typography weight={700} variant="lg" className="text-white">
+              <Typography weight={700} variant="lg" className="text-black">
                 {ENSName ? ENSName : account && shortenAddress(account)}
               </Typography>
             </div>

@@ -77,7 +77,7 @@ const OrderExpirationDropdown: FC = () => {
                           variant="sm"
                           weight={700}
                           className={classNames(
-                            active ? 'text-white' : 'text-primary',
+                            active ? 'text-black' : 'text-black',
                             'px-3 py-2 cursor-pointer hover:bg-dark-900/40'
                           )}
                         >

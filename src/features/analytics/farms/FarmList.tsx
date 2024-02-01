@@ -166,7 +166,7 @@ export default function FarmList({ pools }: FarmListProps): JSX.Element {
         accessor: 'liquidity',
         // @ts-ignore TYPE NEEDS FIXING
         Cell: (props) => (
-          <div className="text-base font-medium text-primary">{formatNumber(props.value, true, false)}</div>
+          <div className="text-base font-medium text-black">{formatNumber(props.value, true, false)}</div>
         ),
         align: 'right',
       },

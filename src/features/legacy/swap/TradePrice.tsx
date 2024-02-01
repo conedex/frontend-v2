@@ -41,10 +41,10 @@ const TradePrice: FC<TradePriceProps> = ({
     <button
       type="button"
       onClick={flipPrice}
-      className={classNames('flex w-full gap-1 cursor-pointer hover:text-white select-none', className)}
+      className={classNames('flex w-full gap-1 cursor-pointer hover:text-black select-none', className)}
     >
-      <Typography variant="xs" weight={700} className="flex gap-1 tracking-[0.06em] text-white">
-        1 {labelInverted} <span className="text-primary">=</span> {formattedPrice} {label}
+      <Typography variant="xs" weight={700} className="flex gap-1 tracking-[0.06em] text-black">
+        1 {labelInverted} <span className="text-black">=</span> {formattedPrice} {label}
         {fiatPrice?.greaterThan(ZERO) && (
           <Typography variant="xs" component="span" className="text-secondary">
             (${fiatPrice?.toSignificant(6)})

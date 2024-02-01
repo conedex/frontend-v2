@@ -10,7 +10,7 @@ const SIZE = {
 }
 
 const FILLED = {
-  default: 'bg-gray-700 text-white',
+  default: 'bg-gray-700 text-black',
   white: 'bg-high-emphesis text-dark-700',
   purple: 'bg-purple bg-opacity-25 text-purple',
   yellow: 'bg-yellow bg-opacity-[0.35] text-yellow',

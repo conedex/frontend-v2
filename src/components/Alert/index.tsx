@@ -30,7 +30,7 @@ const TYPE = {
     color: 'bg-yellow bg-opacity-25 text-high-emphesis',
     icon: (
       <svg
-        className="w-5 h-5 text-white"
+        className="w-5 h-5 text-black"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"
@@ -88,7 +88,7 @@ export default function Alert({
         <button
           type="button"
           onClick={() => setShow(!show)}
-          className="inline-flex rounded opacity-80 hover:opacity-100 focused:opacity-100 text-primary hover:text-high-emphesis focus:text-high-emphesis focus:outline-none focus:ring focus:ring-offset focus:ring-offset-purple focus:ring-purple"
+          className="inline-flex rounded opacity-80 hover:opacity-100 focused:opacity-100 text-black hover:text-high-emphesis focus:text-high-emphesis focus:outline-none focus:ring focus:ring-offset focus:ring-offset-purple focus:ring-purple"
         >
           <span className="sr-only">Dismiss</span>
           <XIcon className="w-5 h-5" aria-hidden="true" />

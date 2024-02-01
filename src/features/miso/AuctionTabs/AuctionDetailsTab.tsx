@@ -97,7 +97,7 @@ const AuctionDetailsTab: FC<AuctionDetailsTabProps> = ({ auction, active }) => {
               text={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-col gap-1">
-                    <Typography variant="xs" weight={700} className="text-white">
+                    <Typography variant="xs" weight={700} className="text-black">
                       {i18n._(t`Fixed`)}
                     </Typography>
                     <Typography variant="xs">
@@ -107,7 +107,7 @@ const AuctionDetailsTab: FC<AuctionDetailsTabProps> = ({ auction, active }) => {
                     </Typography>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <Typography variant="xs" weight={700} className="text-white">
+                    <Typography variant="xs" weight={700} className="text-black">
                       {i18n._(t`Mintable`)}
                     </Typography>
                     <Typography variant="xs">
@@ -117,7 +117,7 @@ const AuctionDetailsTab: FC<AuctionDetailsTabProps> = ({ auction, active }) => {
                     </Typography>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <Typography variant="xs" weight={700} className="text-white">
+                    <Typography variant="xs" weight={700} className="text-black">
                       {i18n._(t`Sushi`)}
                     </Typography>
                     <Typography variant="xs">
@@ -127,7 +127,7 @@ const AuctionDetailsTab: FC<AuctionDetailsTabProps> = ({ auction, active }) => {
                     </Typography>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <Typography variant="xs" weight={700} className="text-white">
+                    <Typography variant="xs" weight={700} className="text-black">
                       {i18n._(t`Custom`)}
                     </Typography>
                     <Typography variant="xs">

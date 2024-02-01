@@ -17,7 +17,7 @@ const InformationDisclosure = ({ farm }) => {
     <div className="flex flex-col gap-6 p-2">
       <HeadlessUiModal.Header header={i18n._(t`How to participate?`)} />
       <div className="flex flex-col gap-1">
-        <Typography variant="xs" weight={700} className="text-white">
+        <Typography variant="xs" weight={700} className="text-black">
           {i18n._(t`Step One`)}
         </Typography>
         {farm.pair.type === PairType.SWAP && (
@@ -70,7 +70,7 @@ const InformationDisclosure = ({ farm }) => {
         )}
       </div>
       <div className="flex flex-col gap-1">
-        <Typography variant="xs" weight={700} className="text-white">
+        <Typography variant="xs" weight={700} className="text-black">
           {i18n._(t`Step Two`)}
         </Typography>
         <Typography variant="xs">
@@ -82,7 +82,7 @@ const InformationDisclosure = ({ farm }) => {
         </Typography>
       </div>
       <div className="flex flex-col gap-1">
-        <Typography variant="xs" weight={700} className="text-white">
+        <Typography variant="xs" weight={700} className="text-black">
           {i18n._(t`Step Three`)}
         </Typography>
         {farm.pair.type === PairType.SWAP ||

@@ -60,7 +60,7 @@ const ImportList: FC = () => {
             <ListLogo size="40px" logoURI={importList.logoURI} alt={`${importList.name} list logo`} />
           )}
           <div className="flex flex-col">
-            <Typography weight={700} className={classNames('text-primary overflow-hidden overflow-ellipsis')}>
+            <Typography weight={700} className={classNames('text-black overflow-hidden overflow-ellipsis')}>
               {importList?.name}{' '}
               {importList && (
                 <Typography variant="xs" weight={700} component="span">
@@ -69,7 +69,7 @@ const ImportList: FC = () => {
               )}
             </Typography>
             <div className="flex items-center gap-1">
-              <Typography variant="xs" className="text-white">
+              <Typography variant="xs" className="text-black">
                 {i18n._(t`${importList?.tokens.length} tokens`)}
               </Typography>
             </div>

@@ -25,7 +25,7 @@ const ImportRow: FC<ImportRow> = ({ token, onClick }) => {
           </div>
           <div className="flex flex-col">
             <div className="flex gap-2 items-center">
-              <Typography variant="lg" weight={700} component="span" className="text-white">
+              <Typography variant="lg" weight={700} component="span" className="text-black">
                 {token.symbol}{' '}
                 <Typography variant="xs" component="span">
                   {token.name}

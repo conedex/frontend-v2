@@ -155,7 +155,7 @@ const TokenCreationStep: FC<{ children(isValid: boolean): ReactNode }> = ({ chil
                   {({ checked }) => (
                     <div
                       className={classNames(
-                        'flex flex-col border border-transparent gap-2 p-10 rounded h-full cursor-pointer max-w-[300px] hover:text-white',
+                        'flex flex-col border border-transparent gap-2 p-10 rounded h-full cursor-pointer max-w-[300px] hover:text-black',
                         index === 0 ? 'text-center md:text-right' : 'text-center md:text-left'
                       )}
                     >

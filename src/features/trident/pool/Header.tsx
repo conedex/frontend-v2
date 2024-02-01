@@ -68,7 +68,7 @@ export const Header: FC<HeaderProps> = ({ pool, i18n }) => {
               </Link>
             )}
             {pool && (
-              <CopyHelper toCopy={pool.liquidityToken.address} className="opacity-100 text-primary">
+              <CopyHelper toCopy={pool.liquidityToken.address} className="opacity-100 text-black">
                 {shortenAddress(pool.liquidityToken.address)}
               </CopyHelper>
             )}

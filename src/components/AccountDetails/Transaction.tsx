@@ -38,7 +38,7 @@ const Transaction: FC<{ hash: string }> = ({ hash }) => {
           <div
             className={classNames(
               pending
-                ? 'text-primary'
+                ? 'text-black'
                 : success
                 ? 'text-green'
                 : indeterminate

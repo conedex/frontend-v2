@@ -103,7 +103,7 @@ const CurrencyInputPanel: FC<CurrencyInputPanelProps> = ({ field, meowshiState, 
             component="span"
             // @ts-ignore TYPE NEEDS FIXING
             onClick={() => handleInput(balance?.toExact(), field)}
-            className="cursor-pointer text-primary"
+            className="cursor-pointer text-black"
           >
             Balance: {balance?.toSignificant(6, { groupSeparator: ',' }) || '0'} {currency?.symbol}
           </Typography>

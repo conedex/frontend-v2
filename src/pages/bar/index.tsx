@@ -280,7 +280,7 @@ export default function Stake() {
                   <p className="mb-1 text-lg font-bold text-right text-high-emphesis md:text-3xl">
                     {`${apy1m ? apy1m.toFixed(2) + '%' : i18n._(t`Loading...`)}`}
                   </p>
-                  <p className="w-32 text-sm text-right text-primary md:w-64 md:text-base">{i18n._(t`1m APY`)}</p>
+                  <p className="w-32 text-sm text-right text-black md:w-64 md:text-base">{i18n._(t`1m APY`)}</p>
                 </div>
               </div>
             </div>
@@ -421,7 +421,7 @@ export default function Stake() {
                       <p className="text-sm font-bold md:text-lg text-high-emphesis">
                         {xSushiBalance ? xSushiBalance.toSignificant(4) : '-'}
                       </p>
-                      <p className="text-sm md:text-base text-primary">xSUSHI</p>
+                      <p className="text-sm md:text-base text-black">xSUSHI</p>
                     </div>
                   </div>
                 </div>
@@ -445,7 +445,7 @@ export default function Stake() {
                       <p className="text-sm font-bold md:text-lg text-high-emphesis">
                         {sushiBalance ? sushiBalance.toSignificant(4) : '-'}
                       </p>
-                      <p className="text-sm md:text-base text-primary">SUSHI</p>
+                      <p className="text-sm md:text-base text-black">SUSHI</p>
                     </div>
                   </div>
                 </div>
@@ -457,7 +457,7 @@ export default function Stake() {
                             <img className="w-4 ml-2 cursor-pointer" src={MoreInfoSymbol} alt={'more info'} />
                         </div>
                         <div className="flex flex-1 md:flex-initial">
-                            <p className="ml-5 text-base text-primary md:ml-0">{`${weightedApr}%`}</p>
+                            <p className="ml-5 text-base text-black md:ml-0">{`${weightedApr}%`}</p>
                         </div>
                     </div> */}
                   {/* {account && (

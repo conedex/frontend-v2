@@ -25,7 +25,7 @@ export const FeeTierSelect: FC<FeeTierSelectProps> = ({ tier, subtitle, selected
       <Typography variant="h3" weight={700}>
         {tier / 100}%
       </Typography>
-      <Typography variant="xs" weight={700} className={active ? 'text-primary' : 'text-low-emphesis'}>
+      <Typography variant="xs" weight={700} className={active ? 'text-black' : 'text-low-emphesis'}>
         {subtitle}
       </Typography>
     </div>

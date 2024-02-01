@@ -132,7 +132,7 @@ const WalletSwitch: FC<
         variant="sm"
         weight={700}
         component="span"
-        className="flex items-center gap-1 px-2 py-1 rounded-full cursor-pointer text-high-emphesis hover:text-white hover:shadow bg-dark-800 hover:bg-dark-700"
+        className="flex items-center gap-1 px-2 py-1 rounded-full cursor-pointer text-high-emphesis hover:text-black hover:shadow bg-dark-800 hover:bg-dark-700"
       >
         {spendFromWallet ? i18n._(t`Wallet`) : i18n._(t`BentoBox`)}
       </Typography>
@@ -160,7 +160,7 @@ const InputPanel: FC<
     if (!priceImpact) return undefined
     if (priceImpact.lessThan('0')) return 'text-green'
     const severity = warningSeverity(priceImpact)
-    if (severity < 1) return 'text-primary'
+    if (severity < 1) return 'text-black'
     if (severity < 3) return 'text-yellow'
     return 'text-red'
   }, [priceImpact])

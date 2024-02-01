@@ -128,7 +128,7 @@ const SettingsTab: FC<SettingsTabProps> = ({ placeholderSlippage, className, tri
         <div
           className={classNames(className, 'flex items-center justify-center w-10 h-10 rounded-full cursor-pointer')}
         >
-          <CogIcon className="w-[26px] h-[26px] transform rotate-90 hover:text-white" />
+          <CogIcon className="w-[26px] h-[26px] transform rotate-90 hover:text-black" />
         </div>
       </Popover>
       <HeadlessUiModal.Controlled isOpen={showConfirmation} onDismiss={() => setShowConfirmation(false)} maxWidth="md">

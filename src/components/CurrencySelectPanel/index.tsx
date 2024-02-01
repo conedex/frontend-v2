@@ -74,7 +74,7 @@ export default function CurrencySelectPanel({
                   </div>
                   {!disableCurrencySelect && currency && (
                     <ChevronDownIcon
-                      className={`${currency ? 'text-primary' : 'text-high-emphesis'} stroke-current`}
+                      className={`${currency ? 'text-black' : 'text-high-emphesis'} stroke-current`}
                       width={16}
                       height={16}
                     />

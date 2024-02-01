@@ -114,7 +114,7 @@ const allColumns = [
     accessor: (row) => (
       <div>
         <div className="font-medium text-high-emphesis">{formatNumber(row.volume1d, true, false, 2)}</div>
-        <div className="font-normal text-primary">{formatNumber(row.volume1w, true, false, 2)}</div>
+        <div className="font-normal text-black">{formatNumber(row.volume1w, true, false, 2)}</div>
       </div>
     ),
     align: 'right',
@@ -125,7 +125,7 @@ const allColumns = [
     accessor: (row) => (
       <div>
         <div className="font-medium text-high-emphesis">{formatNumber(row.volume1d * 0.003, true, false, 2)}</div>
-        <div className="font-normal text-primary">{formatNumber(row.volume1w * 0.003, true, false, 2)}</div>
+        <div className="font-normal text-black">{formatNumber(row.volume1w * 0.003, true, false, 2)}</div>
       </div>
     ),
     align: 'right',

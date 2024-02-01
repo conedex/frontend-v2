@@ -49,7 +49,7 @@ export const KashiMarketRepayClosePositionView: FC<KashiMarketRepayClosePosition
                 <QuestionHelper
                   text={
                     <div className="flex flex-col gap-2">
-                      <Typography variant="xs" className="text-white">
+                      <Typography variant="xs" className="text-black">
                         {i18n._(t`Close your position by swapping your collateral for the borrowed asset`)}
                       </Typography>
                     </div>
@@ -72,7 +72,7 @@ export const KashiMarketRepayClosePositionView: FC<KashiMarketRepayClosePosition
               <div className="flex flex-grow items-center justify-end p-1 cursor-pointer rounded">
                 <ChevronDownIcon
                   width={20}
-                  className={classNames(open ? 'transform rotate-180' : '', 'transition hover:text-white')}
+                  className={classNames(open ? 'transform rotate-180' : '', 'transition hover:text-black')}
                 />
               </div>
             </Disclosure.Button>

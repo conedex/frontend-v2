@@ -25,7 +25,7 @@ const Badge: FC<BadgeProps & React.HTMLAttributes<HTMLDivElement>> = ({ children
           'ring ring-dark-900/40 flex items-center justify-center shadow-md absolute top-[-6px] right-[-6px] h-4 w-4 rounded-full p-1 pointer-events-none'
         )}
       >
-        <Typography variant="xxs" component="span" className="text-white">
+        <Typography variant="xxs" component="span" className="text-black">
           {value}
         </Typography>
       </div>

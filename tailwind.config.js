@@ -33,7 +33,7 @@ module.exports = {
         background: {
           'dark-1000': '#FFDEA8',
           'dark-900': '#FFD791',
-          'dark-800': '#FFC963',
+          'dark-800': '#FFFFFF',
           'dark-pink-red': '#FFECD6',
         },
         border: {
@@ -160,19 +160,20 @@ module.exports = {
         'dark-1000': '#FFDEA8', // Slightly darker orange
         'dark-900': '#FFD791', // More orange
         'dark-850': '#FFD07A', // More orange
-        'dark-800': '#FFC963', // More orange
+        'dark-800': '#FFFFFF', // More orange
         'dark-700': '#FFC24C', // More orange
         'dark-600': '#FFBB35', // More orange
         'dark-500': '#FFB41E', // More orange
         'dark-400': '#FFAD07', // More orange
-        'orange-dark': '#FF8000',
-        'orange-primary': '#FFB366',
+        'orange-dark': '#000000',
+        'orange-primary': '#000000',
         white: '#FFFFFF',
-        'low-emphesis': '#575757',
-        primary: '#BFBFBF',
-        secondary: '#FFFFFF',
+        black: '#000000',
+        'low-emphesis': '#000000',
+        primary: '#000000',
+        secondary: '#000000',
         'high-emphesis': '#000000',
-        'higher-emphesis': '#FCFCFD',
+        'higher-emphesis': '#000000',
       },
       lineHeight: {
         '48px': '48px',

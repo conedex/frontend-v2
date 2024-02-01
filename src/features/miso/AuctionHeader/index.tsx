@@ -89,25 +89,25 @@ const AuctionHeader: FC = () => {
                       : i18n._(t`SALE FINISHED`)}
                   </Typography>
                 </div>
-                <Typography variant="h3" weight={700} className="text-mono text-white text-center">
+                <Typography variant="h3" weight={700} className="text-mono text-black text-center">
                   {days}
                 </Typography>
                 <Typography variant="lg" className="text-mono text-low-emphesis text-center">
                   :
                 </Typography>
-                <Typography variant="h3" weight={700} className="text-mono text-white text-center">
+                <Typography variant="h3" weight={700} className="text-mono text-black text-center">
                   {hours}
                 </Typography>
                 <Typography variant="lg" className="text-mono text-low-emphesis text-center">
                   :
                 </Typography>
-                <Typography variant="h3" weight={700} className="text-mono text-white text-center">
+                <Typography variant="h3" weight={700} className="text-mono text-black text-center">
                   {minutes}
                 </Typography>
                 <Typography variant="lg" className="text-mono text-low-emphesis text-center">
                   :
                 </Typography>
-                <Typography variant="h3" weight={700} className="text-mono text-white text-center">
+                <Typography variant="h3" weight={700} className="text-mono text-black text-center">
                   {seconds}
                 </Typography>
                 <Typography variant="xs" weight={700} className="text-mono text-center mt-1">

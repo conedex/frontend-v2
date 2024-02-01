@@ -68,7 +68,7 @@ export default function Buy() {
   return (
     <a
       id={`buy-link`}
-      className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
+      className="p-2 text-baseline text-black hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
     >
       {i18n._(t`Buy`)}
     </a>

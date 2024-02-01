@@ -25,11 +25,16 @@ const Mobile: FC = () => {
       <header className="w-full flex items-center justify-between min-h-[64px] h-[64px] px-4">
         <div className="flex justify-between flex-grow">
           <div className="p-2 rounded-full hover:bg-white/10">
-            <MenuIcon width={28} className="text-white cursor-pointer hover:text-white" onClick={() => setOpen(true)} />
+            <MenuIcon width={28} className="text-black cursor-pointer hover:text-black" onClick={() => setOpen(true)} />
           </div>
           <div className="flex items-center w-6">
             <Link href="/swap" passHref={true}>
-              <Image src="https://app.sushi.com/images/logo.svg" alt="Sushi logo" width="24px" height="24px" />
+              <Image
+                src="https://bafybeihh2j5qkpx5uifjrmxxrbw2jo323imymp2lcjkvttv2fnebiyqfpq.ipfs.nftstorage.link/Bitcone.svg"
+                alt="Conedex logo"
+                width="24px"
+                height="24px"
+              />
             </Link>
           </div>
           <div className="flex items-center">{<Web3Network />}</div>

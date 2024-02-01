@@ -45,7 +45,7 @@ const HeaderNew: FC<HeaderNewProps> = ({ inputCurrency, outputCurrency, trident 
             query: getQuery(inputCurrency, outputCurrency),
           }}
         >
-          <Typography weight={700} className="text-secondary hover:text-white">
+          <Typography weight={700} className="text-secondary hover:text-black">
             {i18n._(t`Swap`)}
           </Typography>
         </NavLink>
@@ -57,7 +57,7 @@ const HeaderNew: FC<HeaderNewProps> = ({ inputCurrency, outputCurrency, trident 
               query: getQuery(inputCurrency, outputCurrency),
             }}
           >
-            <Typography weight={700} className="text-secondary hover:text-white">
+            <Typography weight={700} className="text-secondary hover:text-black">
               {i18n._(t`Limit`)}
             </Typography>
           </NavLink>

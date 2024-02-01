@@ -113,7 +113,7 @@ const TokenListColumns: Record<TokenListColumnType, Column> = {
     accessor: (row) => (
       <div>
         <div className="font-medium text-high-emphesis">{formatNumber(row.volume1d, true, false, 2)}</div>
-        <div className="font-normal text-primary">{formatNumber(row.volume1w, true, false, 2)}</div>
+        <div className="font-normal text-black">{formatNumber(row.volume1w, true, false, 2)}</div>
       </div>
     ),
     align: 'right',

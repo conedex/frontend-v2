@@ -14,7 +14,7 @@ const HeaderButton: FC<{ title: string; linkTo: string; id?: string }> = ({ titl
       id={id}
       color="gradient"
       variant="outlined"
-      className="flex-1 text-sm font-bold text-white sm:flex-none md:flex-1 h-9"
+      className="flex-1 text-sm font-bold text-black sm:flex-none md:flex-1 h-9"
     >
       {title}
     </Button>

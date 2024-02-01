@@ -63,7 +63,7 @@ const PrivateTransaction: FC<PrivateTransaction> = ({ tx }) => {
                   <div
                     className={classNames(
                       pending
-                        ? 'text-primary'
+                        ? 'text-black'
                         : success
                         ? 'text-green'
                         : indeterminate
@@ -135,7 +135,7 @@ const PrivateTransaction: FC<PrivateTransaction> = ({ tx }) => {
               <div className="flex items-center justify-end flex-grow p-1 rounded cursor-pointer">
                 <ChevronDownIcon
                   width={20}
-                  className={classNames(open ? 'transform rotate-180' : '', 'transition hover:text-white')}
+                  className={classNames(open ? 'transform rotate-180' : '', 'transition hover:text-black')}
                 />
               </div>
             </Disclosure.Button>

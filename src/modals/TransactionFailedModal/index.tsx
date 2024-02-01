@@ -20,7 +20,7 @@ export default function TransactionFailedModal({ isOpen, onDismiss }: Transactio
           <Typography variant="lg" weight={700} className="text-pink-red" component="span">
             {i18n._(t`Oops!`)}{' '}
           </Typography>
-          <Typography variant="sm" weight={700} className="text-primary" component="span">
+          <Typography variant="sm" weight={700} className="text-black" component="span">
             {i18n._(t`Your transaction got rejected`)}
           </Typography>
         </HeadlessUiModal.BorderedContent>

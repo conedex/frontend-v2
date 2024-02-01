@@ -45,7 +45,7 @@ function Web3StatusInner() {
     return (
       <div
         id="web3-status-connected"
-        className="flex items-center gap-2 text-sm rounded-lg text-primary"
+        className="flex items-center gap-2 text-sm rounded-lg text-black"
         onClick={toggleWalletModal}
       >
         {hasPendingTransactions ? (
@@ -60,7 +60,7 @@ function Web3StatusInner() {
             <Typography
               weight={700}
               variant="sm"
-              className="px-2 py-5 font-bold rounded-full text-inherit hover:text-white"
+              className="px-2 py-5 font-bold rounded-full text-inherit hover:text-black"
             >
               {ENSName ? ENSName.toUpperCase() : shortenAddress(account)}
             </Typography>
@@ -90,7 +90,7 @@ function Web3StatusInner() {
     return (
       <Web3Connect
         size="sm"
-        className="!bg-dark-900 bg-gradient-to-r from-pink/80 hover:from-pink to-purple/80 hover:to-purple text-white h-[38px]"
+        className="!bg-dark-900 bg-gradient-to-r from-pink/80 hover:from-pink to-purple/80 hover:to-purple text-black h-[38px]"
       />
     )
   }

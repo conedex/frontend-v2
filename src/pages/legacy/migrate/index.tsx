@@ -60,7 +60,7 @@ const AmountInput = ({ state }: { state: MigrateState }) => {
     <>
       <div className="flex justify-between">
         <div className="text-sm text-secondary">
-          {i18n._(t`Balance`)}: <span className="text-primary">{state.selectedLPToken.balance.toSignificant(4)}</span>
+          {i18n._(t`Balance`)}: <span className="text-black">{state.selectedLPToken.balance.toSignificant(4)}</span>
         </div>
       </div>
       <div className="relative flex items-center w-full mb-4">
@@ -102,7 +102,7 @@ const LPTokenSelect = ({ lpToken, onToggle, isSelected, updating, exchange }: Po
         <DoubleCurrencyLogo currency0={lpToken.tokenA} currency1={lpToken.tokenB} size={20} />
         <Typography
           variant="lg"
-          className="text-primary"
+          className="text-black"
         >{`${lpToken.tokenA.symbol}/${lpToken.tokenB.symbol}`}</Typography>
         {lpToken.dex && <Chip color="purple" label={lpToken.dex} />}
       </div>
@@ -152,7 +152,7 @@ const MigrateButtons = ({ state, exchange }: { state: MigrateState; exchange: st
   return (
     <div className="space-y-4">
       {insufficientAmount ? (
-        <div className="text-sm text-primary">{i18n._(t`Insufficient Balance`)}</div>
+        <div className="text-sm text-black">{i18n._(t`Insufficient Balance`)}</div>
       ) : state.loading ? (
         <Dots>{i18n._(t`Loading`)}</Dots>
       ) : (
@@ -262,11 +262,11 @@ export default function Migrate() {
       </div>
 
       {!account ? (
-        <Web3Connect className="w-full !bg-dark-900 bg-gradient-to-r from-pink/80 hover:from-pink to-purple/80 hover:to-purple text-white h-[38px]" />
+        <Web3Connect className="w-full !bg-dark-900 bg-gradient-to-r from-pink/80 hover:from-pink to-purple/80 hover:to-purple text-black h-[38px]" />
       ) : (
         <div className="p-4 space-y-4 rounded bg-dark-900">
           {state.loading ? (
-            <Typography variant="lg" className="p-4 text-center text-primary">
+            <Typography variant="lg" className="p-4 text-center text-black">
               <Dots>{i18n._(t`Loading your ${exchange} liquidity positions`)}</Dots>
             </Typography>
           ) : (

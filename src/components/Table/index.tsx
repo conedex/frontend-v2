@@ -218,7 +218,7 @@ export default function Table<T>({
                               cI === 0 && 'rounded-l pl-4',
                               cI === row.cells.length - 1 && 'rounded-r pr-4',
                               link && 'cursor-pointer',
-                              'h-20 text-primary bg-dark-900 flex items-center'
+                              'h-20 text-black bg-dark-900 flex items-center'
                             )}
                           >
                             <div

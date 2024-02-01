@@ -383,7 +383,7 @@ export default function Remove() {
           <ArrowLeftIcon
             width={24}
             height={24}
-            className="cursor-pointer text-high-emphesis hover:text-white focus:text-white"
+            className="cursor-pointer text-high-emphesis hover:text-black focus:text-black"
             onClick={() => router.push('/pool')}
           />
           <Typography weight={700} className="text-center whitespace-nowrap text-high-emphesis">

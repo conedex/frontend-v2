@@ -123,7 +123,7 @@ const LimitOrder = () => {
             </div>
             <SwitchVerticalIcon
               width={18}
-              className="mt-6 cursor-pointer text-secondary hover:text-white"
+              className="mt-6 cursor-pointer text-secondary hover:text-black"
               onClick={onSwitchTokens}
             />
             <div className="flex flex-1">

@@ -29,7 +29,7 @@ const FixedRatioHeader: FC<FixedRatioHeaderProps> = ({ margin = true }) => {
         onClick={() => dispatch(setAddFixedRatio(!fixedRatio))}
       >
         <Checkbox id={`chk-fixed-ratio-deposit`} className="w-6 h-6" checked={fixedRatio} />
-        <Typography variant="sm" weight={700} className={fixedRatio ? 'text-white' : ''}>
+        <Typography variant="sm" weight={700} className={fixedRatio ? 'text-black' : ''}>
           {i18n._(t`Deposit assets in equal amounts`)}
         </Typography>
       </div>

@@ -34,8 +34,8 @@ export const NavigationItem: FC<NavigationItem> = ({ node }) => {
         weight={700}
         variant="sm"
         className={classNames(
-          router.asPath === link ? 'text-white' : '',
-          'hover:text-white font-bold py-5 px-2 rounded flex gap-3'
+          router.asPath === link ? 'text-black' : '',
+          'hover:text-black font-bold py-5 px-2 rounded flex gap-3'
         )}
       >
         {!isDesktop && node.icon}
@@ -57,7 +57,7 @@ export const NavigationItem: FC<NavigationItem> = ({ node }) => {
             <Typography
               weight={700}
               variant="sm"
-              className={classNames(open ? 'text-white' : '', 'font-bold py-5 px-2 rounded flex gap-3 items-center')}
+              className={classNames(open ? 'text-black' : '', 'font-bold py-5 px-2 rounded flex gap-3 items-center')}
             >
               {!isDesktop && node.icon}
               {node.title}
@@ -92,7 +92,7 @@ export const NavigationItem: FC<NavigationItem> = ({ node }) => {
                           onClick={() => {
                             router.push(leaf.link).then(() => buttonRef?.current?.click())
                           }}
-                          className="relative px-3 py-2 m-1 rounded-lg hover:cursor-pointer hover:text-white hover:bg-white/10"
+                          className="relative px-3 py-2 m-1 rounded-lg hover:cursor-pointer hover:text-black hover:bg-white/10"
                         >
                           {leaf.title}
                         </Typography>

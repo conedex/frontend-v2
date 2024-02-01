@@ -150,7 +150,7 @@ const Swap = ({ banners }: SwapProps) => {
               className="p-1.5 rounded-full bg-dark-800 border shadow-md border-dark-700 hover:border-dark-600"
               onClick={handleArrowsClick}
             >
-              <ArrowDownIcon width={14} className="text-high-emphesis hover:text-white" />
+              <ArrowDownIcon width={14} className="text-high-emphesis hover:text-black" />
             </div>
           </div>
           <SwapAssetPanel

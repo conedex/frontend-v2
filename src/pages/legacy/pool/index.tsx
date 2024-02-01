@@ -34,7 +34,7 @@ const Pool = () => {
       </div>
       <SwapLayoutCard className="!bg-dark-900 border border-dark-800 !p-0 overflow-hidden">
         {!account ? (
-          <Web3Connect className="w-full !bg-dark-900 bg-gradient-to-r from-pink/80 hover:from-pink to-purple/80 hover:to-purple text-white h-[38px]" />
+          <Web3Connect className="w-full !bg-dark-900 bg-gradient-to-r from-pink/80 hover:from-pink to-purple/80 hover:to-purple text-black h-[38px]" />
         ) : (
           <div className="px-2 space-y-4 rounded bg-dark-900">
             <div className="grid grid-flow-row divide-y divide-dark-800">

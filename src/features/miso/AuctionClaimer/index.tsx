@@ -107,7 +107,7 @@ const AuctionClaimer: FC = () => {
           )}
         >
           <div className="flex flex-col">
-            <Typography className="text-white" weight={700}>
+            <Typography className="text-black" weight={700}>
               {auction.canWithdrawDeposits
                 ? i18n._(t`Withdraw Deposits`)
                 : auction.canFinalize

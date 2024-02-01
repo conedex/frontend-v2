@@ -85,7 +85,7 @@ const ListRow: FC<{ listUrl: string }> = memo(({ listUrl }) => {
     <div
       id={listUrlRowHTMLId(listUrl)}
       className={classNames(
-        isActive ? 'text-high-emphesis' : 'text-primary',
+        isActive ? 'text-high-emphesis' : 'text-black',
         'flex justify-between p-4 hover:bg-dark-800/40'
       )}
       key={listUrl}
@@ -95,7 +95,7 @@ const ListRow: FC<{ listUrl: string }> = memo(({ listUrl }) => {
         <div className="flex flex-col">
           <Typography
             weight={700}
-            className={classNames(isActive ? 'text-white' : 'text-primary', 'overflow-hidden overflow-ellipsis')}
+            className={classNames(isActive ? 'text-black' : 'text-black', 'overflow-hidden overflow-ellipsis')}
           >
             {list.name}{' '}
             <Typography variant="xs" weight={700} component="span">
@@ -103,7 +103,7 @@ const ListRow: FC<{ listUrl: string }> = memo(({ listUrl }) => {
             </Typography>
           </Typography>
           <div className="flex items-center gap-1">
-            <Typography variant="xs" className="text-white">
+            <Typography variant="xs" className="text-black">
               {i18n._(t`${list.tokens.length} tokens`)}
             </Typography>
             <Popover
@@ -122,7 +122,7 @@ const ListRow: FC<{ listUrl: string }> = memo(({ listUrl }) => {
                     weight={700}
                     onClick={handleRemoveList}
                     disabled={Object.keys(listsByUrl).length === 1}
-                    className="cursor-pointer hover:text-white disabled:cursor-default"
+                    className="cursor-pointer hover:text-black disabled:cursor-default"
                   >
                     {i18n._(t`Remove list`)}
                   </Typography>
@@ -131,14 +131,14 @@ const ListRow: FC<{ listUrl: string }> = memo(({ listUrl }) => {
                     variant="sm"
                     weight={700}
                     onClick={handleAcceptListUpdate}
-                    className="cursor-pointer hover:text-white disabled:cursor-default"
+                    className="cursor-pointer hover:text-black disabled:cursor-default"
                   >
                     {i18n._(t`Update list`)}
                   </Typography>
                 </div>
               }
             >
-              <Settings size={12} className="cursor-pointer text-high-emphesis hover:text-white" />
+              <Settings size={12} className="cursor-pointer text-high-emphesis hover:text-black" />
             </Popover>
           </div>
         </div>
@@ -286,7 +286,7 @@ const ManageLists: FC = () => {
                 <ListLogo size="40px" logoURI={tempList.logoURI} alt={`${tempList.name} list logo`} />
               )}
               <div className="flex flex-col">
-                <Typography weight={700} className={classNames('text-primary overflow-hidden overflow-ellipsis')}>
+                <Typography weight={700} className={classNames('text-black overflow-hidden overflow-ellipsis')}>
                   {tempList?.name}{' '}
                   {tempList && (
                     <Typography variant="xs" weight={700} component="span">
@@ -295,7 +295,7 @@ const ManageLists: FC = () => {
                   )}
                 </Typography>
                 <div className="flex items-center gap-1">
-                  <Typography variant="xs" className="text-white">
+                  <Typography variant="xs" className="text-black">
                     {i18n._(t`${tempList?.tokens.length} tokens`)}
                   </Typography>
                 </div>

@@ -132,14 +132,14 @@ const AuctionBidsTab: FC<AuctionBidsTabProps> = ({ auction, active }) => {
           <Typography variant="lg" className="text-high-emphesis">
             {i18n._(t`Participants`)}
           </Typography>
-          <Typography variant="lg" weight={700} className="text-white">
+          <Typography variant="lg" weight={700} className="text-black">
             {[...new Set(commitments.map((el) => el.address))].length}
           </Typography>
         </div>
         <Switch.Group>
           <div className="flex items-center">
             <Switch.Label className="mr-2 cursor-pointer">
-              <Typography className={ownBidsOnly ? 'text-primary' : 'text-secondary'}>
+              <Typography className={ownBidsOnly ? 'text-black' : 'text-secondary'}>
                 {i18n._(t`Show my bids only`)}
               </Typography>
             </Switch.Label>

@@ -12,7 +12,7 @@ export default function PercentInputPanel({ value, onUserInput, id }: PercentInp
   return (
     <div id={id} className="p-5 rounded bg-dark-800">
       <div className="flex flex-col justify-between space-y-3 sm:space-y-0 sm:flex-row">
-        <div className="w-full text-white sm:w-2/5" style={{ margin: 'auto 0px' }}>
+        <div className="w-full text-black sm:w-2/5" style={{ margin: 'auto 0px' }}>
           Amount to Remove
         </div>
         <div className="flex items-center w-full p-3 space-x-3 text-xl font-bold rounded bg-dark-900 sm:w-3/5">

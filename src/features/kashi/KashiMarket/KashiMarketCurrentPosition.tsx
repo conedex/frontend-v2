@@ -73,7 +73,7 @@ export const KashiMarketCurrentPosition: FC<KashiMarketCurrentPosition> = ({
               icon={<GradientDot percent={new Percent(market.health, 1e18).toSignificant(6)} />}
               text={
                 <div className="flex flex-col gap-2">
-                  <Typography variant="xs" className="text-white">
+                  <Typography variant="xs" className="text-black">
                     {i18n._(
                       t`Health of your position defined as your current borrowed amount divided by the max borrow amount given current collateral.`
                     )}

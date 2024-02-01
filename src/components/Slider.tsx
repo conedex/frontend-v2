@@ -22,7 +22,7 @@ const Thumb = (props: any) => {
             enterTo="transform scale-100"
           >
             <div className="relative shadow">
-              <div className="bg-blue -mt-10 text-white text-xs rounded-[6px] px-4 py-0.5 flex justify-center">
+              <div className="bg-blue -mt-10 text-black text-xs rounded-[6px] px-4 py-0.5 flex justify-center">
                 {props['aria-valuenow']}
               </div>
               <svg

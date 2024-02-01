@@ -120,7 +120,7 @@ const VestingLayout = () => {
     <div className="flex flex-col w-full space-y-4 md:flex-row md:space-x-8 md:space-y-0">
       <div className="hidden space-y-10 md:block">
         <div className="relative w-full p-4 overflow-hidden rounded bg-dark-900">
-          <div className="font-bold text-white">{i18n._(t`Community Approval`)}</div>
+          <div className="font-bold text-black">{i18n._(t`Community Approval`)}</div>
           <div
             className="pt-2 text-sm font-bold text-gray-400"
             style={{
@@ -220,12 +220,12 @@ const ProtocolVesting = () => {
       <div className="relative w-full h-full overflow-hidden rounded bg-dark-900">
         <div className="flex flex-col gap-3 p-4">
           <div className="flex flex-row justify-between">
-            <div className="font-bold text-white">{i18n._(t`Claimable SUSHI from Protocols`)}</div>
+            <div className="font-bold text-black">{i18n._(t`Claimable SUSHI from Protocols`)}</div>
             <QuestionHelper text="If you participated in staking progammes from Alpha Homora, Cream, DefiDollar, Dracula, Harvest, Pickle, Yam, or Badger you can claim your vested SUSHI directly here" />
           </div>
           {/* <div style={{ display: 'flex', alignItems: 'baseline' }}> */}
           <div className="flex flex-col items-baseline pb-4">
-            <div className="font-bold text-white text-[36px]">
+            <div className="font-bold text-black text-[36px]">
               {unclaimedAmount?.toFixed(4, { groupSeparator: ',' } ?? {})}
             </div>
             {account ? (
@@ -355,12 +355,12 @@ const WeeklyVesting = () => {
       <div className="relative w-full h-full overflow-hidden rounded bg-dark-900">
         <div className="flex flex-col gap-3 p-4">
           <div className="flex flex-row justify-between">
-            <div className="font-bold text-white">{i18n._(t`Your Claimable SUSHI this Week`)}</div>
+            <div className="font-bold text-black">{i18n._(t`Your Claimable SUSHI this Week`)}</div>
             <QuestionHelper text="Your Vested SUSHI will be released each week for the next 6 months. The amount released each week is determined by your historical farming rewards. You do not need to harvest each week as unclaimed amounts from each week will continue to accrue onto the next." />
           </div>
           {/* <div style={{ display: 'flex', alignItems: 'baseline' }}> */}
           <div className="flex flex-col items-baseline pb-4">
-            <div className="font-bold text-white text-[36px]">
+            <div className="font-bold text-black text-[36px]">
               {unclaimedAmount?.toFixed(4, { groupSeparator: ',' } ?? {})}
             </div>
             {account ? (

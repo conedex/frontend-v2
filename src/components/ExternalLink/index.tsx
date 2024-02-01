@@ -2,7 +2,7 @@ import { classNames } from 'app/functions'
 import React, { FC, HTMLProps, useCallback } from 'react'
 
 const COLOR = {
-  default: 'text-primary hover:text-high-emphesis focus:text-high-emphesis',
+  default: 'text-black hover:text-high-emphesis focus:text-high-emphesis',
   blue: 'text-blue opacity-80 hover:opacity-100 focus:opacity-100',
 }
 

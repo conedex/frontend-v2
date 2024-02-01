@@ -48,7 +48,7 @@ const HeaderDropdown: FC<HeaderDropdownProps> = ({ account, chainId, hideAccount
             </Link>
           )}
           {account && !hideAccount && (
-            <CopyHelper toCopy={account} className="opacity-100 text-primary">
+            <CopyHelper toCopy={account} className="opacity-100 text-black">
               {shortenAddress(account)}
             </CopyHelper>
           )}

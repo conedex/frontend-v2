@@ -122,14 +122,14 @@ const FullPositionCard: FC<PositionCardProps> = ({ pair, stakedBalance }) => {
             <div className="flex justify-between gap-2 items-center pl-2 cursor-pointer">
               <div className="flex items-center gap-2">
                 <CurrencyLogoArray currencies={[currency0, currency1]} dense />
-                <Typography variant="sm" weight={700} className="text-white">
+                <Typography variant="sm" weight={700} className="text-black">
                   {currency0.symbol}-{currency1.symbol}
                 </Typography>
               </div>
               <div className="flex gap-2 flex-grow items-center justify-end p-1 rounded">
                 <ChevronDownIcon
                   width={20}
-                  className={classNames(open ? 'transform rotate-180' : '', 'transition hover:text-white')}
+                  className={classNames(open ? 'transform rotate-180' : '', 'transition hover:text-black')}
                 />
               </div>
             </div>

@@ -65,7 +65,7 @@ export default function PopupItem({
       <div className="relative w-full overflow-hidden rounded bg-dark-700">
         <div className="flex flex-row p-4">
           {popupContent}
-          <div className="cursor-pointer hover:text-white">
+          <div className="cursor-pointer hover:text-black">
             <XIcon width={24} height={24} onClick={removeThisPopup} />
           </div>
         </div>

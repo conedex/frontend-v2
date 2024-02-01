@@ -35,7 +35,7 @@ const Manage: FC = () => {
             <Typography
               weight={700}
               className={classNames(
-                tabIndex === i ? 'text-primary' : 'text-secondary',
+                tabIndex === i ? 'text-black' : 'text-secondary',
                 'hover:text-high-emphesis focus:outline-none'
               )}
             >

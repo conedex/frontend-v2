@@ -20,7 +20,7 @@ const FixedRatioHeader: FC<{ margin?: boolean }> = ({ margin = true }) => {
         onClick={() => dispatch(setRemoveFixedRatio(!fixedRatio))}
       >
         <Checkbox id={`chk-fixed-ratio-withdraw`} className="w-6 h-6" checked={fixedRatio} />
-        <Typography variant="sm" weight={700} className={fixedRatio ? 'text-white' : ''}>
+        <Typography variant="sm" weight={700} className={fixedRatio ? 'text-black' : ''}>
           {i18n._(t`Withdraw assets in equal amounts`)}
         </Typography>
       </div>

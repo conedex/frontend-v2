@@ -385,7 +385,7 @@ const Swap = ({ banners }: SwapProps) => {
                 onSwitchTokens()
               }}
             >
-              <ArrowDownIcon width={14} className="text-high-emphesis hover:text-white" />
+              <ArrowDownIcon width={14} className="text-high-emphesis hover:text-black" />
             </div>
           </div>
           <SwapAssetPanel

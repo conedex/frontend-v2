@@ -291,7 +291,7 @@ export default function Add() {
           <ArrowLeftIcon
             width={24}
             height={24}
-            className="cursor-pointer text-high-emphesis hover:text-white focus:text-white"
+            className="cursor-pointer text-high-emphesis hover:text-black focus:text-black"
             onClick={() => router.push('/pool')}
           />
           <Typography weight={700} className="text-center whitespace-nowrap text-high-emphesis">
@@ -311,7 +311,7 @@ export default function Add() {
         </div>
         <div className="z-0 flex justify-center -mt-6 -mb-6">
           <div className="p-1.5 rounded-full bg-dark-800 border shadow-md border-dark-700 hover:border-dark-600">
-            <PlusIcon width={14} className="text-high-emphesis hover:text-white" />
+            <PlusIcon width={14} className="text-high-emphesis hover:text-black" />
           </div>
         </div>
         <SwapAssetPanel

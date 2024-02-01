@@ -116,7 +116,7 @@ const AuctionCommitter: FC = () => {
                 color="gradient"
               >
                 <div className="flex flex-col items-center gap-1">
-                  <Typography className="text-white" weight={700}>
+                  <Typography className="text-black" weight={700}>
                     {/*@ts-ignore TYPE NEEDS FIXING*/}
                     {error ? error : i18n._(t`Commit`)}
                   </Typography>
@@ -124,7 +124,7 @@ const AuctionCommitter: FC = () => {
                     <div className="flex items-baseline gap-1 px-2 rounded">
                       <Typography
                         variant="xs"
-                        className={classNames(overSpend ? 'text-red' : 'text-white')}
+                        className={classNames(overSpend ? 'text-red' : 'text-black')}
                         weight={700}
                       >
                         {auction.totalTokensCommitted?.add(inputAmount).toSignificant(6)}
@@ -132,7 +132,7 @@ const AuctionCommitter: FC = () => {
                       <Typography variant="xxs" weight={700} className="bottom-[1px] relative">
                         /
                       </Typography>
-                      <Typography variant="sm" className="text-white" weight={700}>
+                      <Typography variant="sm" className="text-black" weight={700}>
                         {whitelistedAmount?.toSignificant(6)}
                       </Typography>
                       <Typography variant="xxs" className="text-high-emphesis" weight={700}>

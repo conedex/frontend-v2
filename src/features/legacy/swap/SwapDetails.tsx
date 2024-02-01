@@ -86,7 +86,7 @@ const SwapDetails: FC<SwapDetails> = ({
                 />
                 <ChevronDownIcon
                   width={20}
-                  className={classNames(open ? 'transform rotate-180' : '', 'transition hover:text-white')}
+                  className={classNames(open ? 'transform rotate-180' : '', 'transition hover:text-black')}
                 />
               </div>
             </Disclosure.Button>
@@ -164,11 +164,11 @@ const SwapDetailsContent: FC<SwapDetails> = ({ trade, recipient, inputAmount, ou
       if (priceImpact.lessThan('0')) return 'text-green'
       const severity = warningSeverity(priceImpact)
       // console.log({ severity })
-      if (severity < 1) return 'text-primary'
+      if (severity < 1) return 'text-black'
       if (severity < 3) return 'text-yellow'
     } else if (typeof priceImpact === 'number') {
       if (priceImpact < 0) return 'text-green'
-      if (priceImpact < 0.01) return 'text-primary'
+      if (priceImpact < 0.01) return 'text-black'
       if (priceImpact < 0.03) return 'text-yellow'
     }
 

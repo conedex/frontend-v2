@@ -100,7 +100,7 @@ const LimitOrderReviewModal: FC<LimitOrderReviewModal> = ({ parsedAmounts, trade
                 price={limitPrice}
                 showInverted={inverted}
                 setShowInverted={setInverted}
-                className="justify-end text-primary"
+                className="justify-end text-black"
               />
             </div>
             {deviation && (

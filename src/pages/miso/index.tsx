@@ -42,7 +42,7 @@ const Miso = () => {
       <MisoHeader>
         <div className="flex flex-col justify-between gap-8 lg:flex-row">
           <div className="flex flex-col">
-            <Typography variant="hero" weight={700} className="text-white">
+            <Typography variant="hero" weight={700} className="text-black">
               {i18n._(t`MISO`)}
             </Typography>
             <Typography weight={700}>

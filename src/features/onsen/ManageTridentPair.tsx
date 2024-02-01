@@ -20,7 +20,7 @@ const ManageTridentPair = ({ farm }) => {
       <div className="flex flex-row items-center gap-3">
         <CurrencyLogoArray currencies={token0 && token1 ? [token0, token1] : []} size={36} dense />
         <div>
-          <div className="text-lg font-bold text-primary">
+          <div className="text-lg font-bold text-black">
             {farm.pair.token0.symbol}/{farm.pair.token1.symbol} {farm.pair.swapFee / 100}%
           </div>
           <div className="text-sm text-secondary">Trident Farm</div>
@@ -34,7 +34,7 @@ const ManageTridentPair = ({ farm }) => {
         )}/${isWrappedReturnNativeSymbol(farm.chainId, farm.pair.token1.id)}?fee=${farm.pair.swapFee}&twap=${
           farm.pair.twapEnabled
         }`}
-        className="flex items-center justify-between px-8 py-4 text-lg font-bold border rounded text-primary border-dark-700 hover:bg-dark-700"
+        className="flex items-center justify-between px-8 py-4 text-lg font-bold border rounded text-black border-dark-700 hover:bg-dark-700"
         rel="noreferrer"
       >
         Add Liquidity <ExternalLinkIcon width={20} height={20} />
@@ -47,7 +47,7 @@ const ManageTridentPair = ({ farm }) => {
         )}/${isWrappedReturnNativeSymbol(farm.chainId, farm.pair.token1.id)}?fee=${farm.pair.swapFee}&twap=${
           farm.pair.twapEnabled
         }`}
-        className="flex items-center justify-between px-8 py-4 text-lg font-bold border rounded text-primary border-dark-700 hover:bg-dark-700"
+        className="flex items-center justify-between px-8 py-4 text-lg font-bold border rounded text-black border-dark-700 hover:bg-dark-700"
         rel="noreferrer"
       >
         Remove Liquidity <ExternalLinkIcon width={20} height={20} />

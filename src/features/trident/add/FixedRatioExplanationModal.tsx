@@ -33,7 +33,7 @@ const FixedRatioExplanationModal: FC = () => {
         </Typography>
       </HeadlessUiModal.BorderedContent>
       <HeadlessUiModal.BorderedContent className="flex flex-col gap-2">
-        <Typography variant="sm" weight={700} className="text-white">
+        <Typography variant="sm" weight={700} className="text-black">
           {i18n._(t`Why use Balance Mode?`)}
         </Typography>
         <Typography variant="sm" weight={400} className="text-high-emphesis">

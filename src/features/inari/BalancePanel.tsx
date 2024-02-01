@@ -74,7 +74,7 @@ const BalancePanel: FC<BalancePanelProps> = ({ label, value, token, showMax = fa
       </div>
       <div className="flex flex-row">
         <div className="flex gap-2 cursor-pointer" onClick={onMax}>
-          <Typography variant="sm" className="text-primary">
+          <Typography variant="sm" className="text-black">
             {i18n._(t`Balance:`)}
           </Typography>
           <Typography variant="sm">

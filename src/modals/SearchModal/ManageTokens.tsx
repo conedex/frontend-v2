@@ -59,13 +59,13 @@ const ManageTokens: FC = () => {
           </div>
           <div className="flex items-center gap-2">
             <div
-              className="flex items-center w-4 h-4 cursor-pointer hover:text-white"
+              className="flex items-center w-4 h-4 cursor-pointer hover:text-black"
               onClick={() => removeToken(chainId, token.address)}
             >
               <Trash width={20} />
             </div>
             <ExternalLinkIcon
-              className="flex items-center cursor-pointer min-w-4 min-h-4 hover:text-white"
+              className="flex items-center cursor-pointer min-w-4 min-h-4 hover:text-black"
               href={getExplorerLink(chainId, token.address, 'address')}
             />
           </div>

@@ -77,10 +77,10 @@ const Banner: FC<BannerProps> = ({ banners }) => {
         {slides.length > 1 && (
           <div className="flex items-center justify-between w-full h-full">
             <Button onClick={prevSlide} className="flex items-center -ml-12">
-              <ChevronLeftIcon width={24} className="hover:text-white text-low-emphesis" />
+              <ChevronLeftIcon width={24} className="hover:text-black text-low-emphesis" />
             </Button>
             <Button onClick={nextSlide} className="flex items-center -mr-12">
-              <ChevronRightIcon width={24} className="hover:text-white text-low-emphesis" />
+              <ChevronRightIcon width={24} className="hover:text-black text-low-emphesis" />
             </Button>
           </div>
         )}

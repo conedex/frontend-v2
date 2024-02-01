@@ -51,7 +51,7 @@ const QuestionHelper: FC<{
         onClick={handler}
         className={classNames(
           gap ? 'ml-1' : '',
-          'flex items-center justify-center outline-none cursor-help hover:text-primary'
+          'flex items-center justify-center outline-none cursor-help hover:text-black'
         )}
         onMouseEnter={open}
         onMouseLeave={close}

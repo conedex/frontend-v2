@@ -237,7 +237,7 @@ export const KashiMarketDetailsView: FC<KashiMarketDetailsView> = ({
                 <QuestionHelper
                   text={
                     <div className="flex flex-col gap-2">
-                      <Typography variant="xs" className="text-white">
+                      <Typography variant="xs" className="text-black">
                         {i18n._(
                           t`When the value of your collateral becomes less than the asset you borrow, your position gets liquidated.`
                         )}
@@ -268,7 +268,7 @@ export const KashiMarketDetailsView: FC<KashiMarketDetailsView> = ({
               <div className="flex items-center justify-end flex-grow p-1 rounded cursor-pointer">
                 <ChevronDownIcon
                   width={20}
-                  className={classNames(open ? 'transform rotate-180' : '', 'transition hover:text-white')}
+                  className={classNames(open ? 'transform rotate-180' : '', 'transition hover:text-black')}
                 />
               </div>
             </Disclosure.Button>

@@ -52,7 +52,7 @@ const RecipientField: FC<RecipientField> = ({ recipient, action }) => {
         <Typography variant="sm" className="px-2">
           {i18n._(t`Recipient`)}
         </Typography>
-        <CloseIcon width={18} className="text-secondary hover:text-white cursor-pointer" onClick={handleClose} />
+        <CloseIcon width={18} className="text-secondary hover:text-black cursor-pointer" onClick={handleClose} />
       </div>
       <div
         className={classNames(

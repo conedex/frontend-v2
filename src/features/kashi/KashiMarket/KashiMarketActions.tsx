@@ -37,7 +37,7 @@ export const KashiMarketActions: FC<KashiMarketActions> = ({ market }) => {
     <Menu as="div">
       <div>
         <Menu.Button>
-          <div className="flex items-center justify-center p-2 rounded-full cursor-pointer hover:text-white">
+          <div className="flex items-center justify-center p-2 rounded-full cursor-pointer hover:text-black">
             <DotsVerticalIcon width={18} height={18} />
           </div>
         </Menu.Button>
@@ -66,7 +66,7 @@ export const KashiMarketActions: FC<KashiMarketActions> = ({ market }) => {
               <QuestionHelper
                 text={
                   <div className="flex flex-col gap-2">
-                    <Typography variant="xs" className="text-white">
+                    <Typography variant="xs" className="text-black">
                       {i18n._(t`Accrue the interest rate on borrowed tokens and update the interest rate`)}
                     </Typography>
                   </div>
@@ -85,7 +85,7 @@ export const KashiMarketActions: FC<KashiMarketActions> = ({ market }) => {
               <QuestionHelper
                 text={
                   <div className="flex flex-col gap-2">
-                    <Typography variant="xs" className="text-white">
+                    <Typography variant="xs" className="text-black">
                       {i18n._(t`Update the oracle exchange rate`)}
                     </Typography>
                     <Typography variant="xs" className="italic">

@@ -14,7 +14,7 @@ export default function Web3Connect({ color = 'gray', size, className = '', ...r
   const { error } = useWeb3React()
   return error ? (
     <div
-      className="flex items-center justify-center px-4 py-2 font-semibold text-white border rounded bg-opacity-80 border-red bg-red hover:bg-opacity-100"
+      className="flex items-center justify-center px-4 py-2 font-semibold text-black border rounded bg-opacity-80 border-red bg-red hover:bg-opacity-100"
       onClick={toggleWalletModal}
     >
       <div className="mr-1">

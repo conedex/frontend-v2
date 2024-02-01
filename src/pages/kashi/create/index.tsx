@@ -192,7 +192,7 @@ export default function Create() {
             />
           </div>
           <div className="flex justify-center relative lg:mt-[-10px] lg:mb-[-30px]">
-            <div onClick={onSwitchTokens} className="rounded-full hover:text-white p-1.5 cursor-pointer">
+            <div onClick={onSwitchTokens} className="rounded-full hover:text-black p-1.5 cursor-pointer">
               <SwitchVerticalIcon width={12} height={12} />
             </div>
           </div>
@@ -242,7 +242,7 @@ export default function Create() {
                       <Typography
                         variant="sm"
                         weight={700}
-                        className="px-3 py-2 cursor-pointer text-primary hover:bg-dark-900/40"
+                        className="px-3 py-2 cursor-pointer text-black hover:bg-dark-900/40"
                       >
                         ChainLink
                       </Typography>

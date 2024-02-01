@@ -19,7 +19,7 @@ const AuctionStat: FC<{ label: any; value?: any; className?: string }> = ({ labe
       <Typography variant="sm" className={classNames('text-secondary', className)}>
         {label}
       </Typography>
-      <Typography weight={700} variant="lg" className={classNames('text-white', className)}>
+      <Typography weight={700} variant="lg" className={classNames('text-black', className)}>
         {value}
       </Typography>
     </div>
